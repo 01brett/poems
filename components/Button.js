@@ -10,6 +10,7 @@ export default function Button(props) {
         height: calc(var(--lg) * 2);
         padding: 0 var(--sm);
         ${props.customCSS && props.customCSS};
+        color: var(--black);
         text-align: center;
         background-color: #fff;
         border: solid 2px rgba(0, 0, 0, 0);
@@ -49,8 +50,10 @@ export default function Button(props) {
         }
 
         &:disabled:hover,
-        &:disabled:active {
+        &:disabled:active,
+        &:disabled:focus {
           cursor: not-allowed;
+          border: solid 2px rgba(0, 0, 0, 0);
           box-shadow: none;
           background-color: var(--grey-bg);
         }
