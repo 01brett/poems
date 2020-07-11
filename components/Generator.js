@@ -116,7 +116,7 @@ export default function Generator() {
             handleClick={replace}
             alt="shuffle"
             emoji="🔀 "
-            text="Replace Line"
+            text="Swap Last Line"
           />
           <div>
             <Button
