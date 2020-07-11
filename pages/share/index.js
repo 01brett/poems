@@ -16,8 +16,8 @@ export default function Share({ data }) {
 }
 
 export async function getServerSideProps({ query }) {
-  var url_id = query.q
-  var [data] = await db.match({ url_id })
+  var id = query.q
+  var [data] = await db.match({ id })
   return {
     props: { data }
   }

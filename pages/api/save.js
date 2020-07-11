@@ -1,5 +1,3 @@
-import shortid from 'shortid'
-
 import db from './db'
 
 export default async function save(req, res) {
@@ -15,7 +13,6 @@ export default async function save(req, res) {
     var {
       inserted: [newid]
     } = await db.add({
-      url_id: shortid.generate(),
       poem,
       clicks
     })
