@@ -1,5 +1,5 @@
 {
-  "name": "nextjs",
+  "name": "poems",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^9.3.3",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@unbounded/unbounded": "^1.0.0",
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
   }
 }
