@@ -5,9 +5,14 @@ import Header from '../../components/Header'
 import Shared from '../../components/Shared'
 
 export default function Share({ data }) {
+  var title = data.poem[0].text
+  var desc = data.poem.reduce((acc, v) => {
+    return acc + v.text + ' '
+  }, '')
+
   return (
     <>
-      <Head title={data.poem[0].text} />
+      <Head title={title} desc={desc} />
       <Header>
         <Shared data={data} />
       </Header>
