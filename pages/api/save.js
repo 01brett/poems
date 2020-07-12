@@ -6,6 +6,7 @@ export default async function save(req, res) {
   if (
     !clicks ||
     !poem ||
+    !Array.isArray(poem) ||
     typeof clicks !== 'number' ||
     poem.length < 2 ||
     poem.length > 5
