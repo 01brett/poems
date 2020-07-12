@@ -10,8 +10,8 @@ export default function HTMLHead({
       <title>{title}</title>
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Poem Generator" />
-      <meta property="og:title" content={title} />
-      <meta property="og:desc" content={desc} />
+      <meta property="og:title" content={desc} />
+      <meta property="og:description" content={desc} />
       <meta name="apple-mobile-web-app-title" content="Poem Generator" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black" />
       <meta
@@ -24,11 +24,6 @@ export default function HTMLHead({
         sizes="192x192"
         href="/apple-touch-icon.png"
       />
-      <meta name="theme-color" content="#121212" />
-      <meta name="twitter:card" content="player" />
-      <meta name="twitter:site" content="@username" />
-      <meta name="twitter:title" content="Twitter Title" />
-      <meta name="twitter:description" content="Twitter Description" />
     </Head>
   )
 }
