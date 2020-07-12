@@ -18,12 +18,17 @@ export default function HTMLHead({
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no, viewport-fit=cover"
       />
-      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       <link
         rel="apple-touch-icon"
         sizes="192x192"
         href="/apple-touch-icon.png"
       />
+      <meta name="theme-color" content="#121212" />
+      <meta name="twitter:card" content="player" />
+      <meta name="twitter:site" content="@username" />
+      <meta name="twitter:title" content="Twitter Title" />
+      <meta name="twitter:description" content="Twitter Description" />
     </Head>
   )
 }
