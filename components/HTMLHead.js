@@ -11,7 +11,8 @@ export default function HTMLHead({
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="Poem Generator" />
       <meta property="og:title" content={title} />
-      <meta property="og:desc" content={desc} />
+      <meta property="og:image" content="/horse.jpg" />
+      <meta property="og:description" content={desc} />
       <meta name="apple-mobile-web-app-title" content="Poem Generator" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black" />
       <meta
