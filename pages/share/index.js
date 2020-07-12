@@ -7,8 +7,11 @@ import Shared from '../../components/Shared'
 export default function Share({ data }) {
   var firstLine = data.poem[0].text
   var fullPoem = data.poem.reduce((acc, val) => {
-    return acc.text + '. ' + val.text
-  })
+    if (!acc) {
+      return acc + val.text
+    }
+    return acc + ' ' + val.text
+  }, '')
 
   return (
     <>
