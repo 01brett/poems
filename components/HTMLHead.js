@@ -1,18 +1,19 @@
 import Head from 'next/head'
 
-export default function HTMLHead({
-  title = 'Poem Generator',
-  desc = 'Create (somewhat) randomized poem generation from the tweets of defunct Twitter spam-bot @horse_ebooks.'
-}) {
+export default function HTMLHead({ firstLine, fullPoem }) {
+  var siteTitle = 'Poem Generator'
   return (
     <Head>
       <meta charSet="utf-8" />
-      <title>{title}</title>
+      <title>{firstLine ? firstLine : siteTitle}</title>
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="Poem Generator" />
-      <meta property="og:title" content={desc} />
-      <meta property="og:description" content={desc} />
-      <meta name="apple-mobile-web-app-title" content="Poem Generator" />
+      <meta property="og:site_name" content={siteTitle} />
+      <meta property="og:title" content={fullPoem ? fullPoem : siteTitle} />
+      <meta
+        property="og:description"
+        content="Create (somewhat) randomized poem generation from the tweets of defunct Twitter spam-bot @horse_ebooks."
+      />
+      <meta name="apple-mobile-web-app-title" content={siteTitle} />
       <meta name="apple-mobile-web-app-status-bar-style" content="black" />
       <meta
         name="viewport"
