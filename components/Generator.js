@@ -109,7 +109,7 @@ export default function Generator() {
             justify-content: space-between;
             margin-bottom: var(--md);
           `}>
-          <Button handleClick={replace} text="Swap Last" />
+          <Button handleClick={replace} text="Swap Bottom" />
           <div>
             <Button
               handleClick={remove}
@@ -119,7 +119,7 @@ export default function Generator() {
               text="Line"
             />
             <Button
-              customCSS={'margin-left: 1rem;'}
+              customCSS={'margin-left: 0.25rem;'}
               handleClick={add}
               disabled={count >= 5}
               alt="plus"

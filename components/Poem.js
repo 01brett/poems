@@ -10,7 +10,7 @@ export default function Poem({ poem }) {
           css={css`
             font-family: var(--serif);
             font-size: calc(var(--lg) * 1.1);
-            line-height: 1.3;
+            line-height: 1.2;
             margin-bottom: var(--sm);
           `}
           key={el.tweet_id + idx}>
