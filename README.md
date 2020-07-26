@@ -12,13 +12,13 @@ npm i
 
 ### Link up an Unbounded NoSQL db:
 
-You'll need to create an `.env.local` file with the following keys. Next, create a free [Unbounded](https://unbounded.cloud) account to access the following values.
+Create a free [Unbounded](https://unbounded.cloud) account to save poems. You'll need to create an `.env.local` file with the following keys from your account.
 
 `UNB_EMAIL` is the email for your Unbounded account
 
 `UNB_PW` is the API key for your Unbounded account
 
-`UNB_DB` is the name of your db
+`UNB_DB` is the name of your db (your choice)
 
 ### Run the development server:
 
