@@ -115,15 +115,15 @@ export default function Generator() {
               handleClick={remove}
               disabled={count <= 1}
               alt="minus"
-              emoji="➖ "
+              emoji="➖"
               text="Line"
             />
             <Button
-              customCSS={'margin-left: 0.25rem;'}
+              customCSS={'margin-left: 0.65rem;'}
               handleClick={add}
               disabled={count >= 5}
               alt="plus"
-              emoji="➕ "
+              emoji="➕"
               text="Line"
             />
           </div>
