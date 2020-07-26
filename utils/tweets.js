@@ -1357,7 +1357,7 @@ export default [
   },
   {
     tweet_id: 340,
-    text: `displayed are all for right-handers? I ll show`
+    text: `displayed are all for right-handers? I'll show`
   },
   {
     tweet_id: 341,
@@ -5217,7 +5217,7 @@ export default [
   },
   {
     tweet_id: 1305,
-    text: `Every week. I couldn’t live without it. I ll never again have an`
+    text: `Every week. I couldn’t live without it. I'll never again have an`
   },
   {
     tweet_id: 1306,
@@ -6497,7 +6497,7 @@ export default [
   },
   {
     tweet_id: 1625,
-    text: `And The 33 Secrets I ll Share With You Will Save You Hundreds And Perhaps Thousands Of Dollars And Make The Most Of The Greatest Adventure`
+    text: `And The 33 Secrets I'll Share With You Will Save You Hundreds And Perhaps Thousands Of Dollars And Make The Most Of The Greatest Adventure`
   },
   {
     tweet_id: 1626,
@@ -6993,7 +6993,7 @@ export default [
   },
   {
     tweet_id: 1749,
-    text: `I’m going to give you the information you need to be successful, and I’m so confident It works, I ll be setting you a small challenge to`
+    text: `I’m going to give you the information you need to be successful, and I’m so confident It works, I'll be setting you a small challenge to`
   },
   {
     tweet_id: 1750,
@@ -7065,7 +7065,7 @@ export default [
   },
   {
     tweet_id: 1767,
-    text: `Rest easy because I ll help`
+    text: `Rest easy because I'll help`
   },
   {
     tweet_id: 1768,
@@ -8881,7 +8881,7 @@ export default [
   },
   {
     tweet_id: 2221,
-    text: `I ll tell you what, and the`
+    text: `I'll tell you what, and the`
   },
   {
     tweet_id: 2222,
@@ -9249,7 +9249,7 @@ export default [
   },
   {
     tweet_id: 2313,
-    text: `(I ll tell you about my extraordinary guarantee`
+    text: `(I'll tell you about my extraordinary guarantee`
   },
   {
     tweet_id: 2314,
@@ -11973,7 +11973,7 @@ export default [
   },
   {
     tweet_id: 2994,
-    text: `I ll make a bet with you. I’m going to let you sail through this`
+    text: `I'll make a bet with you. I’m going to let you sail through this`
   },
   {
     tweet_id: 2995,
@@ -13185,7 +13185,7 @@ export default [
   },
   {
     tweet_id: 3297,
-    text: `Pyramid and the excitement it’s generating is spreading like wild fire. I ll tell you`
+    text: `Pyramid and the excitement it’s generating is spreading like wild fire. I'll tell you`
   },
   {
     tweet_id: 3298,
