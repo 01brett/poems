@@ -32,7 +32,7 @@ export default function Tweet(props) {
           <h2
             css={css`
               font-size: var(--lg);
-              margin-bottom: calc(var(--xs));
+              margin-bottom: calc(var(--sm) / 2);
             `}>
             Horse ebooks
           </h2>
