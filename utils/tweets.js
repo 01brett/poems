@@ -473,7 +473,7 @@ export default [
   },
   {
     tweet_id: 119,
-    text: `Your'Sales Skills are meaningless`
+    text: `Your Sales Skills are meaningless`
   },
   {
     tweet_id: 120,
@@ -977,7 +977,7 @@ export default [
   },
   {
     tweet_id: 245,
-    text: `STEP 3: 15 WAYS TO IDENTIFY YOUR'SKIN`
+    text: `STEP 3: 15 WAYS TO IDENTIFY YOUR SKIN`
   },
   {
     tweet_id: 246,
@@ -1173,7 +1173,7 @@ export default [
   },
   {
     tweet_id: 294,
-    text: `"Hot Kissing Tips for'Stage and Screen"`
+    text: `"Hot Kissing Tips for Stage and Screen"`
   },
   {
     tweet_id: 295,
@@ -1597,7 +1597,7 @@ export default [
   },
   {
     tweet_id: 400,
-    text: `Lawn Mower'Style Line Trimmer`
+    text: `Lawn Mower Style Line Trimmer`
   },
   {
     tweet_id: 401,
@@ -2117,7 +2117,7 @@ export default [
   },
   {
     tweet_id: 530,
-    text: `Superfoods For'Super Health`
+    text: `Superfoods For Super Health`
   },
   {
     tweet_id: 531,
@@ -2137,7 +2137,7 @@ export default [
   },
   {
     tweet_id: 535,
-    text: `Dynamic Personality for'Success`
+    text: `Dynamic Personality for Success`
   },
   {
     tweet_id: 536,
@@ -2429,7 +2429,7 @@ export default [
   },
   {
     tweet_id: 608,
-    text: `The Greatest Restaurant Owner'Shares`
+    text: `The Greatest Restaurant Owner Shares`
   },
   {
     tweet_id: 609,
@@ -4157,7 +4157,7 @@ export default [
   },
   {
     tweet_id: 1040,
-    text: `Frequently Made Mistake To Avoid Depleting Your'Soil s`
+    text: `Frequently Made Mistake To Avoid Depleting Your Soil s`
   },
   {
     tweet_id: 1041,
@@ -4357,7 +4357,7 @@ export default [
   },
   {
     tweet_id: 1090,
-    text: `Four'Steps To Financial Freedom`
+    text: `Four Steps To Financial Freedom`
   },
   {
     tweet_id: 1091,
@@ -4713,7 +4713,7 @@ export default [
   },
   {
     tweet_id: 1179,
-    text: `Furniture. Pine Armoire Mission Folding Chair'Shaker Hall Table Wash Stand. Games`
+    text: `Furniture. Pine Armoire Mission Folding Chair Shaker Hall Table Wash Stand. Games`
   },
   {
     tweet_id: 1180,
@@ -5441,7 +5441,7 @@ export default [
   },
   {
     tweet_id: 1361,
-    text: `Taxpayer'Statements`
+    text: `Taxpayer Statements`
   },
   {
     tweet_id: 1362,
@@ -5909,7 +5909,7 @@ export default [
   },
   {
     tweet_id: 1478,
-    text: `Planning Framework For'Successful Business`
+    text: `Planning Framework For Successful Business`
   },
   {
     tweet_id: 1479,
@@ -5949,7 +5949,7 @@ export default [
   },
   {
     tweet_id: 1488,
-    text: `Disaster'Survival Why You Should Get Your RV Ready`
+    text: `Disaster Survival Why You Should Get Your RV Ready`
   },
   {
     tweet_id: 1489,
@@ -5993,7 +5993,7 @@ export default [
   },
   {
     tweet_id: 1499,
-    text: `and hair'SHEDDING. Discover`
+    text: `and hair SHEDDING. Discover`
   },
   {
     tweet_id: 1500,
@@ -6069,7 +6069,7 @@ export default [
   },
   {
     tweet_id: 1518,
-    text: `Resume and Cover Letter'Secrets Revealed`
+    text: `Resume and Cover Letter Secrets Revealed`
   },
   {
     tweet_id: 1519,
@@ -6169,7 +6169,7 @@ export default [
   },
   {
     tweet_id: 1543,
-    text: `52 Mind Power'Secrets`
+    text: `52 Mind Power Secrets`
   },
   {
     tweet_id: 1544,
@@ -6641,7 +6641,7 @@ export default [
   },
   {
     tweet_id: 1661,
-    text: `Car'Salesmen Are Licensed and Regulated`
+    text: `Car Salesmen Are Licensed and Regulated`
   },
   {
     tweet_id: 1662,
@@ -6765,7 +6765,7 @@ export default [
   },
   {
     tweet_id: 1692,
-    text: `Have A Big Mansion ! I’m not`
+    text: `Have A Big Mansion! I’m not`
   },
   {
     tweet_id: 1693,
@@ -7369,7 +7369,7 @@ export default [
   },
   {
     tweet_id: 1843,
-    text: `Your Attitude - Your'Self-Esteem`
+    text: `Your Attitude - Your Self-Esteem`
   },
   {
     tweet_id: 1844,
@@ -7837,7 +7837,7 @@ export default [
   },
   {
     tweet_id: 1960,
-    text: `Established WebSite For'Sale`
+    text: `Established WebSite For Sale`
   },
   {
     tweet_id: 1961,
@@ -8397,7 +8397,7 @@ export default [
   },
   {
     tweet_id: 2100,
-    text: `Spiritual Healing For Your'Soul`
+    text: `Spiritual Healing For Your Soul`
   },
   {
     tweet_id: 2101,
@@ -9201,7 +9201,7 @@ export default [
   },
   {
     tweet_id: 2301,
-    text: `7-PROVEN Insider'Secrets`
+    text: `7-PROVEN Insider Secrets`
   },
   {
     tweet_id: 2302,
@@ -9297,7 +9297,7 @@ export default [
   },
   {
     tweet_id: 2325,
-    text: `Improve Your'Self-Esteem In Just One Weekend!`
+    text: `Improve Your Self-Esteem In Just One Weekend!`
   },
   {
     tweet_id: 2326,
@@ -9581,7 +9581,7 @@ export default [
   },
   {
     tweet_id: 2396,
-    text: `99 Tips For'Selling Your Home For Maximum Profit!`
+    text: `99 Tips For Selling Your Home For Maximum Profit!`
   },
   {
     tweet_id: 2397,
@@ -10293,7 +10293,7 @@ export default [
   },
   {
     tweet_id: 2574,
-    text: `Parents, Is your'Son or Daughter Prepared to Handle the Basic Money Tasks that Every`
+    text: `Parents, Is your Son or Daughter Prepared to Handle the Basic Money Tasks that Every`
   },
   {
     tweet_id: 2575,
@@ -10301,7 +10301,7 @@ export default [
   },
   {
     tweet_id: 2576,
-    text: `What Role Your Blogs Play In Your'Success!`
+    text: `What Role Your Blogs Play In Your Success!`
   },
   {
     tweet_id: 2577,
@@ -10569,7 +10569,7 @@ export default [
   },
   {
     tweet_id: 2643,
-    text: `Soccer Fitness 101 - 10 Ways to Get Fit for'Soccer Right Now`
+    text: `Soccer Fitness 101 - 10 Ways to Get Fit for Soccer Right Now`
   },
   {
     tweet_id: 2644,
@@ -11293,7 +11293,7 @@ export default [
   },
   {
     tweet_id: 2824,
-    text: `Care For'Stunning Roses in 7 Days`
+    text: `Care For Stunning Roses in 7 Days`
   },
   {
     tweet_id: 2825,
@@ -11869,7 +11869,7 @@ export default [
   },
   {
     tweet_id: 2968,
-    text: `SPRING SPRING SPRING SPRING ? ? FALC SPRING SPRING FALL SUMMER'SUMME' SUMMER'SUMMER FALL ? `
+    text: `SPRING SPRING SPRING SPRING ? ? FALC SPRING SPRING FALL SUMMER SUMME' SUMMER SUMMER FALL ? `
   },
   {
     tweet_id: 2969,
@@ -12089,7 +12089,7 @@ export default [
   },
   {
     tweet_id: 3023,
-    text: `15 Ways to Make Your'Small Kitchen`
+    text: `15 Ways to Make Your Small Kitchen`
   },
   {
     tweet_id: 3024,
@@ -12521,7 +12521,7 @@ export default [
   },
   {
     tweet_id: 3131,
-    text: `SHELLFISHFRESH OR'SIMPLY PREPAREDU U U U U U U U U U U U U U 4 052 969 33 871`
+    text: `SHELLFISHFRESH OR SIMPLY PREPAREDU U U U U U U U U U U U U U 4 052 969 33 871`
   },
   {
     tweet_id: 3132,
@@ -12953,7 +12953,7 @@ export default [
   },
   {
     tweet_id: 3239,
-    text: `Sticker'Sticker'Sticker'Sticker Yes No Yes No Yes No Yea Yea Registration Yes Yea & sticker Only one contractor bid Quality control problem`
+    text: `Sticker Sticker Sticker Sticker Yes No Yes No Yes No Yea Yea Registration Yes Yea & sticker Only one contractor bid Quality control problem`
   },
   {
     tweet_id: 3240,
@@ -13369,7 +13369,7 @@ export default [
   },
   {
     tweet_id: 3343,
-    text: `Shocked?? You might think your'SEO`
+    text: `Shocked?? You might think your SEO`
   },
   {
     tweet_id: 3344,
@@ -13721,7 +13721,7 @@ export default [
   },
   {
     tweet_id: 3431,
-    text: `My Bodybuilding Mentor'Showed Me The Jealously Guarded Secrets Of Getting Massive`
+    text: `My Bodybuilding Mentor Showed Me The Jealously Guarded Secrets Of Getting Massive`
   },
   {
     tweet_id: 3432,
@@ -13917,7 +13917,7 @@ export default [
   },
   {
     tweet_id: 3480,
-    text: `Customer'Service Step by Step`
+    text: `Customer Service Step by Step`
   },
   {
     tweet_id: 3481,
@@ -14129,7 +14129,7 @@ export default [
   },
   {
     tweet_id: 3533,
-    text: `IRON OR'STEEL, EMPTY SHIPPING, NONFERROUS`
+    text: `IRON OR STEEL, EMPTY SHIPPING, NONFERROUS`
   },
   {
     tweet_id: 3534,
