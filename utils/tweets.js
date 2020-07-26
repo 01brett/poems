@@ -13,7 +13,7 @@ export default [
   },
   {
     tweet_id: 4,
-    text: `Want to unlock the hidden doors of your inner being? (space) Abraham Lincoln has the key.`
+    text: `Want to unlock the hidden doors of your inner being? (space) Abraham Lincoln has the key`
   },
   {
     tweet_id: 5,
@@ -25,7 +25,7 @@ export default [
   },
   {
     tweet_id: 7,
-    text: `The secret method behind teaching your horse to walk on his hind legs. This never fails to impress onlookers.`
+    text: `The secret method behind teaching your horse to walk on his hind legs. This never fails to impress onlookers`
   },
   {
     tweet_id: 8,
@@ -41,7 +41,7 @@ export default [
   },
   {
     tweet_id: 11,
-    text: `How to throw a horse.`
+    text: `How to throw a horse`
   },
   {
     tweet_id: 12,
@@ -65,7 +65,7 @@ export default [
   },
   {
     tweet_id: 17,
-    text: `Make a special sauce so your do can share in the festive season.`
+    text: `Make a special sauce so your do can share in the festive season`
   },
   {
     tweet_id: 18,
@@ -85,11 +85,11 @@ export default [
   },
   {
     tweet_id: 22,
-    text: `How to teach your horse to pretend he’s a vicious animal and chase after others...even if he is...`
+    text: `How to teach your horse to pretend he’s a vicious animal and chase after others...even if he is..`
   },
   {
     tweet_id: 23,
-    text: `How to tap into the power of your mind and literally create whatever it is you are looking for in your life.`
+    text: `How to tap into the power of your mind and literally create whatever it is you are looking for in your life`
   },
   {
     tweet_id: 24,
@@ -233,7 +233,7 @@ export default [
   },
   {
     tweet_id: 59,
-    text: `There are no bad dogs,`
+    text: `There are no bad dogs`
   },
   {
     tweet_id: 60,
@@ -241,7 +241,7 @@ export default [
   },
   {
     tweet_id: 61,
-    text: `It’s really over.`
+    text: `It’s really over`
   },
   {
     tweet_id: 62,
@@ -285,7 +285,7 @@ export default [
   },
   {
     tweet_id: 72,
-    text: `Get ready to fly helicopters.`
+    text: `Get ready to fly helicopters`
   },
   {
     tweet_id: 73,
@@ -313,7 +313,7 @@ export default [
   },
   {
     tweet_id: 79,
-    text: `A totally weird dream,`
+    text: `A totally weird dream`
   },
   {
     tweet_id: 80,
@@ -421,11 +421,11 @@ export default [
   },
   {
     tweet_id: 106,
-    text: `there are dark times coming,`
+    text: `there are dark times coming`
   },
   {
     tweet_id: 107,
-    text: `And much, much more...`
+    text: `And much, much more..`
   },
   {
     tweet_id: 108,
@@ -453,7 +453,7 @@ export default [
   },
   {
     tweet_id: 114,
-    text: `Well, the answer is simple - you are probably doing something wrong.`
+    text: `Well, the answer is simple - you are probably doing something wrong`
   },
   {
     tweet_id: 115,
@@ -473,7 +473,7 @@ export default [
   },
   {
     tweet_id: 119,
-    text: `Your Sales Skills are meaningless`
+    text: `Your'Sales Skills are meaningless`
   },
   {
     tweet_id: 120,
@@ -493,11 +493,11 @@ export default [
   },
   {
     tweet_id: 124,
-    text: `On the Continent, ladies never shake hands with gentlemen unless under circumstances of great intimacy.`
+    text: `On the Continent, ladies never'shake hands with gentlemen unless under circumstances of great intimacy`
   },
   {
     tweet_id: 125,
-    text: `Lactose is the natural sugar found in milk. Sucrose is the common sugar we put in or on our food. Talk, talk, talk, talk, talk.`
+    text: `Lactose is the natural sugar found in milk. Sucrose is the common sugar we put in or on our food. Talk, talk, talk, talk, talk`
   },
   {
     tweet_id: 126,
@@ -505,11 +505,11 @@ export default [
   },
   {
     tweet_id: 127,
-    text: `Fruit flies or not, I do have a heart,`
+    text: `Fruit flies or not, I do have a heart`
   },
   {
     tweet_id: 128,
-    text: `Submarine Submarine Submarine Submarine Submarine Submarine Submarine or submergible Submarine`
+    text: `Submarine Submarine Submarine Submarine Submarine Submarine Submarine or'submergible Submarine`
   },
   {
     tweet_id: 129,
@@ -517,7 +517,7 @@ export default [
   },
   {
     tweet_id: 130,
-    text: `I Laughed Out Loud... Now I Know What I Have To Do.`
+    text: `I Laughed Out Loud... Now I Know What I Have To Do`
   },
   {
     tweet_id: 131,
@@ -533,15 +533,15 @@ export default [
   },
   {
     tweet_id: 134,
-    text: `(Sometimes it just makes my toes curl!). Who made me the Food Captain?`
+    text: `(Sometimes it just makes my toes curl!) Who made me the Food Captain?`
   },
   {
     tweet_id: 135,
-    text: `Tree Tree Tree Tree Tree Tree Tree Stop Stop Stop Stop Stop Stop Stop traps, traps, traps, traps, traps, traps, traps,`
+    text: `Tree Tree Tree Tree Tree Tree Tree Stop Stop Stop Stop Stop Stop Stop traps, traps, traps, traps, traps, traps, traps`
   },
   {
     tweet_id: 136,
-    text: `I was a 475 pound cab driver,`
+    text: `I was a 475 pound cab driver`
   },
   {
     tweet_id: 137,
@@ -561,7 +561,7 @@ export default [
   },
   {
     tweet_id: 141,
-    text: `ripping off hard working veterinarians,`
+    text: `ripping off hard working veterinarians`
   },
   {
     tweet_id: 142,
@@ -569,7 +569,7 @@ export default [
   },
   {
     tweet_id: 143,
-    text: `How you can teach your horse to say YES and NO.`
+    text: `How you can teach your horse to say YES and NO`
   },
   {
     tweet_id: 144,
@@ -605,7 +605,7 @@ export default [
   },
   {
     tweet_id: 152,
-    text: `and becoming a woman is a very serious venture.`
+    text: `and becoming a woman is a very serious venture`
   },
   {
     tweet_id: 153,
@@ -689,15 +689,15 @@ export default [
   },
   {
     tweet_id: 173,
-    text: `Dear tomato,`
+    text: `Dear tomato`
   },
   {
     tweet_id: 174,
-    text: `Too many horses. Throw a horse away.`
+    text: `Too many horses. Throw a horse away`
   },
   {
     tweet_id: 175,
-    text: `Secret ways of “jockeying” a horse to make him appear to be other than what he is,`
+    text: `Secret ways of “jockeying” a horse to make him appear to be other than what he is`
   },
   {
     tweet_id: 176,
@@ -757,7 +757,7 @@ export default [
   },
   {
     tweet_id: 190,
-    text: `Funny. But with tragic consequences.`
+    text: `Funny. But with tragic consequences`
   },
   {
     tweet_id: 191,
@@ -781,11 +781,11 @@ export default [
   },
   {
     tweet_id: 196,
-    text: `goodbye to yet another dead plant.`
+    text: `goodbye to yet another dead plant`
   },
   {
     tweet_id: 197,
-    text: `A totally weird dream,`
+    text: `A totally weird dream`
   },
   {
     tweet_id: 198,
@@ -801,7 +801,7 @@ export default [
   },
   {
     tweet_id: 201,
-    text: `Shake Hands... yup...`
+    text: `Shake Hands... yup..`
   },
   {
     tweet_id: 202,
@@ -837,7 +837,7 @@ export default [
   },
   {
     tweet_id: 210,
-    text: `Real and Counterfeit Love.`
+    text: `Real and Counterfeit Love`
   },
   {
     tweet_id: 211,
@@ -849,11 +849,11 @@ export default [
   },
   {
     tweet_id: 213,
-    text: `... and this seems to be only the tip of the iceberg`
+    text: `...and this seems to be only the tip of the iceberg`
   },
   {
     tweet_id: 214,
-    text: `You have plenty of room for a horse now.`
+    text: `You have plenty of room for a horse now`
   },
   {
     tweet_id: 215,
@@ -881,7 +881,7 @@ export default [
   },
   {
     tweet_id: 221,
-    text: `There is no form or method. There is only emotion.`
+    text: `There is no form or method. There is only emotion`
   },
   {
     tweet_id: 222,
@@ -941,7 +941,7 @@ export default [
   },
   {
     tweet_id: 236,
-    text: `Now I kayak all the time and love every minute of it.`
+    text: `Now I kayak all the time and love every minute of it`
   },
   {
     tweet_id: 237,
@@ -953,7 +953,7 @@ export default [
   },
   {
     tweet_id: 239,
-    text: `Bean Dip A La Dr.`
+    text: `Bean Dip A La Dr`
   },
   {
     tweet_id: 240,
@@ -973,11 +973,11 @@ export default [
   },
   {
     tweet_id: 244,
-    text: `Fellow Car Enthusiast............ I love cars.`
+    text: `Fellow Car Enthusiast............ I love cars`
   },
   {
     tweet_id: 245,
-    text: `STEP 3: 15 WAYS TO IDENTIFY YOUR SKIN`
+    text: `STEP 3: 15 WAYS TO IDENTIFY YOUR'SKIN`
   },
   {
     tweet_id: 246,
@@ -1001,7 +1001,7 @@ export default [
   },
   {
     tweet_id: 251,
-    text: `Mama Needs A New Pair O Shoes`
+    text: `Mama Needs A New Pair O' Shoes`
   },
   {
     tweet_id: 252,
@@ -1033,11 +1033,11 @@ export default [
   },
   {
     tweet_id: 259,
-    text: `Example of reckoning a pyramid.`
+    text: `Example of reckoning a pyramid`
   },
   {
     tweet_id: 260,
-    text: `This amazing bonus is all about Night Fishing.`
+    text: `This amazing bonus is all about Night Fishing`
   },
   {
     tweet_id: 261,
@@ -1065,7 +1065,7 @@ export default [
   },
   {
     tweet_id: 267,
-    text: `Know WHAT to do and what to avoid doing.`
+    text: `Know WHAT to do and what to avoid doing`
   },
   {
     tweet_id: 268,
@@ -1081,7 +1081,7 @@ export default [
   },
   {
     tweet_id: 271,
-    text: `I got in trouble for having a cyber-wedding,`
+    text: `I got in trouble for having a cyber-wedding`
   },
   {
     tweet_id: 272,
@@ -1125,11 +1125,11 @@ export default [
   },
   {
     tweet_id: 282,
-    text: `I will tell you a story and you sing out if you know the words.`
+    text: `I will tell you a story and you sing out if you know the words`
   },
   {
     tweet_id: 283,
-    text: `It has been like this ever since the wars, the deaths and the rocks`
+    text: `It has been like this ever'since the wars, the deaths and the rocks`
   },
   {
     tweet_id: 284,
@@ -1137,7 +1137,7 @@ export default [
   },
   {
     tweet_id: 285,
-    text: `guarantee the success of your tomato garden.`
+    text: `guarantee the success of your tomato garden`
   },
   {
     tweet_id: 286,
@@ -1161,7 +1161,7 @@ export default [
   },
   {
     tweet_id: 291,
-    text: `A dream to the average or sensual person, bears`
+    text: `A dream to the average or'sensual person, bears`
   },
   {
     tweet_id: 292,
@@ -1173,7 +1173,7 @@ export default [
   },
   {
     tweet_id: 294,
-    text: `"Hot Kissing Tips for Stage and Screen".`
+    text: `"Hot Kissing Tips for'Stage and Screen"`
   },
   {
     tweet_id: 295,
@@ -1209,7 +1209,7 @@ export default [
   },
   {
     tweet_id: 303,
-    text: `Earn nearly 6 million coins and...`
+    text: `Earn nearly 6 million coins and..`
   },
   {
     tweet_id: 304,
@@ -1241,7 +1241,7 @@ export default [
   },
   {
     tweet_id: 311,
-    text: `Ask your dumbass friends if they know of a reputable artist.`
+    text: `Ask your dumbass friends if they know of a reputable artist`
   },
   {
     tweet_id: 312,
@@ -1257,7 +1257,7 @@ export default [
   },
   {
     tweet_id: 315,
-    text: `am a happy horse, too, though born out of wedlock.`
+    text: `am a happy horse, too, though born out of wedlock`
   },
   {
     tweet_id: 316,
@@ -1285,7 +1285,7 @@ export default [
   },
   {
     tweet_id: 322,
-    text: `The real goal of any talk or speech`
+    text: `The real goal of any talk or'speech`
   },
   {
     tweet_id: 323,
@@ -1305,7 +1305,7 @@ export default [
   },
   {
     tweet_id: 327,
-    text: `This is a very special technique that I have never seen`
+    text: `This is a very special technique that I have never'seen`
   },
   {
     tweet_id: 328,
@@ -1321,7 +1321,7 @@ export default [
   },
   {
     tweet_id: 331,
-    text: `process from preparation, through to delivery.`
+    text: `process from preparation, through to delivery`
   },
   {
     tweet_id: 332,
@@ -1337,7 +1337,7 @@ export default [
   },
   {
     tweet_id: 335,
-    text: `Then I decided to try an experiment and put all of my hard work to the test. The next morning I got up and walked straight to my computer..`
+    text: `Then I decided to try an experiment and put all of my hard work to the test. The next morning I got up and walked straight to my computer.`
   },
   {
     tweet_id: 336,
@@ -1353,7 +1353,7 @@ export default [
   },
   {
     tweet_id: 339,
-    text: `How many times have you wished you were strong enough to concentrate your mind,`
+    text: `How many times have you wished you were strong enough to concentrate your mind`
   },
   {
     tweet_id: 340,
@@ -1361,7 +1361,7 @@ export default [
   },
   {
     tweet_id: 341,
-    text: `your daily life, and also in difficult and trying situations.`
+    text: `your daily life, and also in difficult and trying situations`
   },
   {
     tweet_id: 342,
@@ -1373,7 +1373,7 @@ export default [
   },
   {
     tweet_id: 344,
-    text: `The interviews can be shorter since you would have many`
+    text: `The interviews can be shorter'since you would have many`
   },
   {
     tweet_id: 345,
@@ -1381,7 +1381,7 @@ export default [
   },
   {
     tweet_id: 346,
-    text: `of the court again once you ve`
+    text: `of the court again once you've`
   },
   {
     tweet_id: 347,
@@ -1405,7 +1405,7 @@ export default [
   },
   {
     tweet_id: 352,
-    text: `and how often they hear it.`
+    text: `and how often they hear it`
   },
   {
     tweet_id: 353,
@@ -1413,7 +1413,7 @@ export default [
   },
   {
     tweet_id: 354,
-    text: `No circus act lifts or beach body workouts.`
+    text: `No circus act lifts or beach body workouts`
   },
   {
     tweet_id: 355,
@@ -1449,7 +1449,7 @@ export default [
   },
   {
     tweet_id: 363,
-    text: `and more! Start raising your self-esteem today!`
+    text: `and more! Start raising your'self-esteem today!`
   },
   {
     tweet_id: 364,
@@ -1465,11 +1465,11 @@ export default [
   },
   {
     tweet_id: 367,
-    text: `New cars, clothes,`
+    text: `New cars, clothes`
   },
   {
     tweet_id: 368,
-    text: `wild don’t diet, and neither should you.`
+    text: `wild don’t diet, and neither'should you`
   },
   {
     tweet_id: 369,
@@ -1481,11 +1481,11 @@ export default [
   },
   {
     tweet_id: 371,
-    text: `Life style strategies to support your youthful memory.`
+    text: `Life style strategies to support your youthful memory`
   },
   {
     tweet_id: 372,
-    text: `& visual perception, Memory,`
+    text: `& visual perception, Memory`
   },
   {
     tweet_id: 373,
@@ -1497,7 +1497,7 @@ export default [
   },
   {
     tweet_id: 375,
-    text: `remember and fun to share.`
+    text: `remember and fun to share`
   },
   {
     tweet_id: 376,
@@ -1509,11 +1509,11 @@ export default [
   },
   {
     tweet_id: 378,
-    text: `Culture Revealed.`
+    text: `Culture Revealed`
   },
   {
     tweet_id: 379,
-    text: `And for many, it does both.`
+    text: `And for many, it does both`
   },
   {
     tweet_id: 380,
@@ -1541,7 +1541,7 @@ export default [
   },
   {
     tweet_id: 386,
-    text: `are worth the attention to create a "balance".`
+    text: `are worth the attention to create a "balance"`
   },
   {
     tweet_id: 387,
@@ -1553,7 +1553,7 @@ export default [
   },
   {
     tweet_id: 389,
-    text: `Not only that, but whether you believe it (or want to believe it) the car salesmen will continue to laugh`
+    text: `Not only that, but whether you believe it (or want to believe it) the car'salesmen will continue to laugh`
   },
   {
     tweet_id: 390,
@@ -1593,11 +1593,11 @@ export default [
   },
   {
     tweet_id: 399,
-    text: `at the insights you gain about those weird, bizarre symbols in your dreams.`
+    text: `at the insights you gain about those weird, bizarre symbols in your dreams`
   },
   {
     tweet_id: 400,
-    text: `Lawn Mower Style Line Trimmer`
+    text: `Lawn Mower'Style Line Trimmer`
   },
   {
     tweet_id: 401,
@@ -1645,7 +1645,7 @@ export default [
   },
   {
     tweet_id: 412,
-    text: `at the proper time within the recuperative cycle.`
+    text: `at the proper time within the recuperative cycle`
   },
   {
     tweet_id: 413,
@@ -1729,7 +1729,7 @@ export default [
   },
   {
     tweet_id: 433,
-    text: `even starting this marvelous hobby.`
+    text: `even starting this marvelous hobby`
   },
   {
     tweet_id: 434,
@@ -1753,7 +1753,7 @@ export default [
   },
   {
     tweet_id: 439,
-    text: `Hold", the brutal "King Pin", and much more!).`
+    text: `Hold", the brutal "King Pin", and much more!)`
   },
   {
     tweet_id: 440,
@@ -1765,7 +1765,7 @@ export default [
   },
   {
     tweet_id: 442,
-    text: `Picture this! In just a week or so of implementing these secret techniques you will go from a "Search Engine Nobody"`
+    text: `Picture this! In just a week or'so of implementing these secret techniques you will go from a "Search Engine Nobody"`
   },
   {
     tweet_id: 443,
@@ -1853,7 +1853,7 @@ export default [
   },
   {
     tweet_id: 464,
-    text: `on what needs to be done for each section.`
+    text: `on what needs to be done for each section`
   },
   {
     tweet_id: 465,
@@ -1921,7 +1921,7 @@ export default [
   },
   {
     tweet_id: 481,
-    text: `do the flowers look different in different weather conditions.`
+    text: `do the flowers look different in different weather conditions`
   },
   {
     tweet_id: 482,
@@ -1961,7 +1961,7 @@ export default [
   },
   {
     tweet_id: 491,
-    text: `a friend that people will want to hang out with rather than be forgotten about thanks to some very powerful techniques.`
+    text: `a friend that people will want to hang out with rather than be forgotten about thanks to some very powerful techniques`
   },
   {
     tweet_id: 492,
@@ -1989,7 +1989,7 @@ export default [
   },
   {
     tweet_id: 498,
-    text: `BEFORE going to a fancy restaurant to reduce the damage.`
+    text: `BEFORE going to a fancy restaurant to reduce the damage`
   },
   {
     tweet_id: 499,
@@ -2021,7 +2021,7 @@ export default [
   },
   {
     tweet_id: 506,
-    text: `Half-Truths To Desperate Newcomers,`
+    text: `Half-Truths To Desperate Newcomers`
   },
   {
     tweet_id: 507,
@@ -2033,7 +2033,7 @@ export default [
   },
   {
     tweet_id: 509,
-    text: `above an already value-packed offering.`
+    text: `above an already value-packed offering`
   },
   {
     tweet_id: 510,
@@ -2105,7 +2105,7 @@ export default [
   },
   {
     tweet_id: 527,
-    text: `Their Competition and Land on The Cover Of Famous Fitness Magazines.`
+    text: `Their Competition and Land on The Cover Of Famous Fitness Magazines`
   },
   {
     tweet_id: 528,
@@ -2117,7 +2117,7 @@ export default [
   },
   {
     tweet_id: 530,
-    text: `Superfoods For Super Health`
+    text: `Superfoods For'Super Health`
   },
   {
     tweet_id: 531,
@@ -2137,7 +2137,7 @@ export default [
   },
   {
     tweet_id: 535,
-    text: `Dynamic Personality for Success`
+    text: `Dynamic Personality for'Success`
   },
   {
     tweet_id: 536,
@@ -2157,7 +2157,7 @@ export default [
   },
   {
     tweet_id: 540,
-    text: `our entire bodies have always been the most powerful form of visual expression.`
+    text: `our entire bodies have always been the most powerful form of visual expression`
   },
   {
     tweet_id: 541,
@@ -2173,7 +2173,7 @@ export default [
   },
   {
     tweet_id: 544,
-    text: `see the best solutions.`
+    text: `see the best solutions`
   },
   {
     tweet_id: 545,
@@ -2197,7 +2197,7 @@ export default [
   },
   {
     tweet_id: 550,
-    text: `committed, the apprehension of a person DALTON suspected cannot be justified by anybody.`
+    text: `committed, the apprehension of a person DALTON suspected cannot be justified by anybody`
   },
   {
     tweet_id: 551,
@@ -2213,7 +2213,7 @@ export default [
   },
   {
     tweet_id: 554,
-    text: `efforts, and laughs,`
+    text: `efforts, and laughs`
   },
   {
     tweet_id: 555,
@@ -2229,7 +2229,7 @@ export default [
   },
   {
     tweet_id: 558,
-    text: `A market, A machine or set of machines, A group of workers, A department. Key Benefits: The technique is`
+    text: `A market, A machine or'set of machines, A group of workers, A department. Key Benefits: The technique is`
   },
   {
     tweet_id: 559,
@@ -2253,7 +2253,7 @@ export default [
   },
   {
     tweet_id: 564,
-    text: `the point b were made to describe a straight line horizontally,`
+    text: `the point b were made to describe a straight line horizontally`
   },
   {
     tweet_id: 565,
@@ -2269,7 +2269,7 @@ export default [
   },
   {
     tweet_id: 568,
-    text: `And Dropped 2 Pants Sizes Without Strenuous Exercise.`
+    text: `And Dropped 2 Pants Sizes Without Strenuous Exercise`
   },
   {
     tweet_id: 569,
@@ -2285,7 +2285,7 @@ export default [
   },
   {
     tweet_id: 572,
-    text: `This particular smile reveals to you that someone is being insecure.`
+    text: `This particular'smile reveals to you that someone is being insecure`
   },
   {
     tweet_id: 573,
@@ -2293,7 +2293,7 @@ export default [
   },
   {
     tweet_id: 574,
-    text: `heard of it before suddenly want it.`
+    text: `heard of it before suddenly want it`
   },
   {
     tweet_id: 575,
@@ -2429,7 +2429,7 @@ export default [
   },
   {
     tweet_id: 608,
-    text: `The Greatest Restaurant Owner Shares`
+    text: `The Greatest Restaurant Owner'Shares`
   },
   {
     tweet_id: 609,
@@ -2489,7 +2489,7 @@ export default [
   },
   {
     tweet_id: 623,
-    text: `smoothly immediately after the first kiss is finished.`
+    text: `smoothly immediately after the first kiss is finished`
   },
   {
     tweet_id: 624,
@@ -2509,7 +2509,7 @@ export default [
   },
   {
     tweet_id: 628,
-    text: `The shower, toilet and sink simply sparkle. She also stores bedding and towels the same way. Rolled clothes eliminate creases.`
+    text: `The shower, toilet and sink simply sparkle. She also stores bedding and towels the same way. Rolled clothes eliminate creases`
   },
   {
     tweet_id: 629,
@@ -2541,7 +2541,7 @@ export default [
   },
   {
     tweet_id: 636,
-    text: `What factors outside your control influences your speed in reading.`
+    text: `What factors outside your control influences your'speed in reading`
   },
   {
     tweet_id: 637,
@@ -2601,7 +2601,7 @@ export default [
   },
   {
     tweet_id: 651,
-    text: `Dalton tomorrow," he reminded her. "I won t," she agreed, "and thanks." She gave`
+    text: `Dalton tomorrow," he reminded her. "I won't," she agreed, "and thanks." She gave`
   },
   {
     tweet_id: 652,
@@ -2613,7 +2613,7 @@ export default [
   },
   {
     tweet_id: 654,
-    text: `interspersed through her own story.`
+    text: `interspersed through her own story`
   },
   {
     tweet_id: 655,
@@ -2673,7 +2673,7 @@ export default [
   },
   {
     tweet_id: 669,
-    text: `And after some deep thought, I concluded that the gurus were hiding something from me... There is something they`
+    text: `And after'some deep thought, I concluded that the gurus were hiding something from me... There is something they`
   },
   {
     tweet_id: 670,
@@ -2689,7 +2689,7 @@ export default [
   },
   {
     tweet_id: 673,
-    text: `all aquatic ecosystems.`
+    text: `all aquatic ecosystems`
   },
   {
     tweet_id: 674,
@@ -2701,7 +2701,7 @@ export default [
   },
   {
     tweet_id: 676,
-    text: `Types - Construction - Care and Operation of Generators.`
+    text: `Types - Construction - Care and Operation of Generators`
   },
   {
     tweet_id: 677,
@@ -2729,7 +2729,7 @@ export default [
   },
   {
     tweet_id: 683,
-    text: `Have a ton of energy and get everything done in your day.`
+    text: `Have a ton of energy and get everything done in your day`
   },
   {
     tweet_id: 684,
@@ -2781,7 +2781,7 @@ export default [
   },
   {
     tweet_id: 696,
-    text: `crushing situations for a very lucky few.`
+    text: `crushing situations for a very lucky few`
   },
   {
     tweet_id: 697,
@@ -2805,7 +2805,7 @@ export default [
   },
   {
     tweet_id: 702,
-    text: `Hello! I’m author and personal trainer,`
+    text: `Hello! I’m author and personal trainer`
   },
   {
     tweet_id: 703,
@@ -2913,7 +2913,7 @@ export default [
   },
   {
     tweet_id: 729,
-    text: `powerful, results-producing,`
+    text: `powerful, results-producing`
   },
   {
     tweet_id: 730,
@@ -2961,7 +2961,7 @@ export default [
   },
   {
     tweet_id: 741,
-    text: `And that means more fitness and health benefits to live life to the fullest.`
+    text: `And that means more fitness and health benefits to live life to the fullest`
   },
   {
     tweet_id: 742,
@@ -2985,7 +2985,7 @@ export default [
   },
   {
     tweet_id: 747,
-    text: `around you, either positively or negatively.`
+    text: `around you, either positively or negatively`
   },
   {
     tweet_id: 748,
@@ -2993,7 +2993,7 @@ export default [
   },
   {
     tweet_id: 749,
-    text: `For me, what is the point of attracting a great guy,`
+    text: `For me, what is the point of attracting a great guy`
   },
   {
     tweet_id: 750,
@@ -3001,7 +3001,7 @@ export default [
   },
   {
     tweet_id: 751,
-    text: `Butterfly Quilt.`
+    text: `Butterfly Quilt`
   },
   {
     tweet_id: 752,
@@ -3041,7 +3041,7 @@ export default [
   },
   {
     tweet_id: 761,
-    text: `thought to represent two hands (and so ten fingers) placed together.`
+    text: `thought to represent two hands (and so ten fingers) placed together`
   },
   {
     tweet_id: 762,
@@ -3101,7 +3101,7 @@ export default [
   },
   {
     tweet_id: 776,
-    text: `RAINFALL Table 1. Table 1. Table 1. Table 1. Table 1. Table 1. Table 1.`
+    text: `RAINFALL Table 1. Table 1. Table 1. Table 1. Table 1. Table 1. Table 1`
   },
   {
     tweet_id: 777,
@@ -3109,7 +3109,7 @@ export default [
   },
   {
     tweet_id: 778,
-    text: `Are you looking for something more?`
+    text: `Are you looking for'something more?`
   },
   {
     tweet_id: 779,
@@ -3125,7 +3125,7 @@ export default [
   },
   {
     tweet_id: 782,
-    text: `Travel is inevitable,`
+    text: `Travel is inevitable`
   },
   {
     tweet_id: 783,
@@ -3149,7 +3149,7 @@ export default [
   },
   {
     tweet_id: 788,
-    text: `How great it feels to be freakishly strong.`
+    text: `How great it feels to be freakishly strong`
   },
   {
     tweet_id: 789,
@@ -3185,7 +3185,7 @@ export default [
   },
   {
     tweet_id: 797,
-    text: `The very best cure for kicking.`
+    text: `The very best cure for kicking`
   },
   {
     tweet_id: 798,
@@ -3197,7 +3197,7 @@ export default [
   },
   {
     tweet_id: 800,
-    text: `Never suffer another ear`
+    text: `Never'suffer another ear`
   },
   {
     tweet_id: 801,
@@ -3229,7 +3229,7 @@ export default [
   },
   {
     tweet_id: 808,
-    text: `In fact,`
+    text: `In fact`
   },
   {
     tweet_id: 809,
@@ -3245,11 +3245,11 @@ export default [
   },
   {
     tweet_id: 812,
-    text: `your arms and legs.`
+    text: `your arms and legs`
   },
   {
     tweet_id: 813,
-    text: `The basic nutritional requirements of a champion pigeon.`
+    text: `The basic nutritional requirements of a champion pigeon`
   },
   {
     tweet_id: 814,
@@ -3265,11 +3265,11 @@ export default [
   },
   {
     tweet_id: 817,
-    text: `of women and people in the prime of life.`
+    text: `of women and people in the prime of life`
   },
   {
     tweet_id: 818,
-    text: `under the other Points, and this distinguishes the integral and fractional Parts of the Answer. . " . EXAMPLE. EXAMPLE.`
+    text: `under the other Points, and this distinguishes the integral and fractional Parts of the Answer. . " . EXAMPLE. EXAMPLE`
   },
   {
     tweet_id: 819,
@@ -3297,7 +3297,7 @@ export default [
   },
   {
     tweet_id: 825,
-    text: `Cool Relationships.`
+    text: `Cool Relationships`
   },
   {
     tweet_id: 826,
@@ -3337,7 +3337,7 @@ export default [
   },
   {
     tweet_id: 835,
-    text: `Until it’s profitable,`
+    text: `Until it’s profitable`
   },
   {
     tweet_id: 836,
@@ -3361,11 +3361,11 @@ export default [
   },
   {
     tweet_id: 841,
-    text: `Walk into rooms filled with strangers and confidently start conversations.`
+    text: `Walk into rooms filled with strangers and confidently start conversations`
   },
   {
     tweet_id: 842,
-    text: `No flow of bile to speak of. later. later. later. later. later. later. later. later. later. later. later. later. later. later.`
+    text: `No flow of bile to speak of. later. later. later. later. later. later. later. later. later. later. later. later. later. later`
   },
   {
     tweet_id: 843,
@@ -3381,7 +3381,7 @@ export default [
   },
   {
     tweet_id: 846,
-    text: `Realistically,`
+    text: `Realistically`
   },
   {
     tweet_id: 847,
@@ -3393,7 +3393,7 @@ export default [
   },
   {
     tweet_id: 849,
-    text: `seconds to the questions you ve`
+    text: `seconds to the questions you've`
   },
   {
     tweet_id: 850,
@@ -3401,7 +3401,7 @@ export default [
   },
   {
     tweet_id: 851,
-    text: `Everyone’s negative comments actually paved the way for my bodybuilding success.`
+    text: `Everyone’s negative comments actually paved the way for my bodybuilding success`
   },
   {
     tweet_id: 852,
@@ -3457,7 +3457,7 @@ export default [
   },
   {
     tweet_id: 865,
-    text: `maybe a mountainside retreat or a downtown highrise.`
+    text: `maybe a mountainside retreat or a downtown highrise`
   },
   {
     tweet_id: 866,
@@ -3517,7 +3517,7 @@ export default [
   },
   {
     tweet_id: 880,
-    text: `your engineering curiosity.`
+    text: `your engineering curiosity`
   },
   {
     tweet_id: 881,
@@ -3525,7 +3525,7 @@ export default [
   },
   {
     tweet_id: 882,
-    text: `I Want, and as Much as I Want, Any Time I Want, Literally on Demand, Completely Free of Confusion, Frustration,`
+    text: `I Want, and as Much as I Want, Any Time I Want, Literally on Demand, Completely Free of Confusion, Frustration`
   },
   {
     tweet_id: 883,
@@ -3537,7 +3537,7 @@ export default [
   },
   {
     tweet_id: 885,
-    text: `door hollow-core door solid-core door fabric synthetic fabric natural fabric guitar electric guitar acoustic guitar Internet broadband`
+    text: `door hollow-core door'solid-core door fabric synthetic fabric natural fabric guitar electric guitar acoustic guitar Internet broadband`
   },
   {
     tweet_id: 886,
@@ -3633,7 +3633,7 @@ export default [
   },
   {
     tweet_id: 909,
-    text: `word of success is, and how if you’re missing it, nothing else matters.`
+    text: `word of success is, and how if you’re missing it, nothing else matters`
   },
   {
     tweet_id: 910,
@@ -3685,7 +3685,7 @@ export default [
   },
   {
     tweet_id: 922,
-    text: `It’s fun and it’s profitable.`
+    text: `It’s fun and it’s profitable`
   },
   {
     tweet_id: 923,
@@ -3701,11 +3701,11 @@ export default [
   },
   {
     tweet_id: 926,
-    text: `changing income on the internet.`
+    text: `changing income on the internet`
   },
   {
     tweet_id: 927,
-    text: `she’s ever seen on her finger...at a price that will keep`
+    text: `she’s ever'seen on her finger...at a price that will keep`
   },
   {
     tweet_id: 928,
@@ -3725,7 +3725,7 @@ export default [
   },
   {
     tweet_id: 932,
-    text: `We are a team. We make money...`
+    text: `We are a team. We make money..`
   },
   {
     tweet_id: 933,
@@ -3733,11 +3733,11 @@ export default [
   },
   {
     tweet_id: 934,
-    text: `A Very, Very,`
+    text: `A Very, Very`
   },
   {
     tweet_id: 935,
-    text: `quickly your hair grows back,`
+    text: `quickly your hair grows back`
   },
   {
     tweet_id: 936,
@@ -3753,7 +3753,7 @@ export default [
   },
   {
     tweet_id: 939,
-    text: `he stood: stood, his THE HOUSE ON THE RAMPARTS 33.`
+    text: `he stood: stood, his THE HOUSE ON THE RAMPARTS 33`
   },
   {
     tweet_id: 940,
@@ -3761,15 +3761,15 @@ export default [
   },
   {
     tweet_id: 941,
-    text: `If You Know Nothing About Tattoos For Women.`
+    text: `If You Know Nothing About Tattoos For Women`
   },
   {
     tweet_id: 942,
-    text: `this flower.`
+    text: `this flower`
   },
   {
     tweet_id: 943,
-    text: `How to talk to people over the phone and many other sample conversations.`
+    text: `How to talk to people over the phone and many other'sample conversations`
   },
   {
     tweet_id: 944,
@@ -3785,7 +3785,7 @@ export default [
   },
   {
     tweet_id: 947,
-    text: `Find Find road. Find Find Find roads in the vicinity of a building. distance between buildings.`
+    text: `Find Find road. Find Find Find roads in the vicinity of a building. distance between buildings`
   },
   {
     tweet_id: 948,
@@ -3805,7 +3805,7 @@ export default [
   },
   {
     tweet_id: 952,
-    text: `describes situations that he or she could not have experienced.`
+    text: `describes situations that he or'she could not have experienced`
   },
   {
     tweet_id: 953,
@@ -3825,7 +3825,7 @@ export default [
   },
   {
     tweet_id: 957,
-    text: `and beauty can be a new beginning,`
+    text: `and beauty can be a new beginning`
   },
   {
     tweet_id: 958,
@@ -3833,7 +3833,7 @@ export default [
   },
   {
     tweet_id: 959,
-    text: `while leaving out all the fluff.`
+    text: `while leaving out all the fluff`
   },
   {
     tweet_id: 960,
@@ -3845,7 +3845,7 @@ export default [
   },
   {
     tweet_id: 962,
-    text: `available, but if you follow this plan,`
+    text: `available, but if you follow this plan`
   },
   {
     tweet_id: 963,
@@ -3885,7 +3885,7 @@ export default [
   },
   {
     tweet_id: 972,
-    text: `you heard me right, one day.`
+    text: `you heard me right, one day`
   },
   {
     tweet_id: 973,
@@ -3905,7 +3905,7 @@ export default [
   },
   {
     tweet_id: 977,
-    text: `to why the game of Roulette can never be beaten.`
+    text: `to why the game of Roulette can never be beaten`
   },
   {
     tweet_id: 978,
@@ -3953,7 +3953,7 @@ export default [
   },
   {
     tweet_id: 989,
-    text: `Everything started great in the initial stages of planting our new garden.`
+    text: `Everything started great in the initial stages of planting our new garden`
   },
   {
     tweet_id: 990,
@@ -3973,7 +3973,7 @@ export default [
   },
   {
     tweet_id: 994,
-    text: `The Things You Have Always Wanted To Today...`
+    text: `The Things You Have Always Wanted To Today..`
   },
   {
     tweet_id: 995,
@@ -3989,7 +3989,7 @@ export default [
   },
   {
     tweet_id: 998,
-    text: `the web for the first time... and possibly the last.`
+    text: `the web for the first time... and possibly the last`
   },
   {
     tweet_id: 999,
@@ -4013,7 +4013,7 @@ export default [
   },
   {
     tweet_id: 1004,
-    text: `you for saying nothing? When they are talking are you too busy thinking`
+    text: `you for'saying nothing? When they are talking are you too busy thinking`
   },
   {
     tweet_id: 1005,
@@ -4081,7 +4081,7 @@ export default [
   },
   {
     tweet_id: 1021,
-    text: `Now imagine that mountain placed at the centre of a compass.`
+    text: `Now imagine that mountain placed at the centre of a compass`
   },
   {
     tweet_id: 1022,
@@ -4113,7 +4113,7 @@ export default [
   },
   {
     tweet_id: 1029,
-    text: `keeping keeping keeping keeping keeping keeping keeping keeps coming back, each one saying to himself, when the moment keeps. I listened.`
+    text: `keeping keeping keeping keeping keeping keeping keeping keeps coming back, each one saying to himself, when the moment keeps. I listened`
   },
   {
     tweet_id: 1030,
@@ -4141,7 +4141,7 @@ export default [
   },
   {
     tweet_id: 1036,
-    text: `gold in your hand, you don’t know it exists.`
+    text: `gold in your hand, you don’t know it exists`
   },
   {
     tweet_id: 1037,
@@ -4153,11 +4153,11 @@ export default [
   },
   {
     tweet_id: 1039,
-    text: `but for the rest of my long and healthy life.`
+    text: `but for the rest of my long and healthy life`
   },
   {
     tweet_id: 1040,
-    text: `Frequently Made Mistake To Avoid Depleting Your Soil s`
+    text: `Frequently Made Mistake To Avoid Depleting Your'Soil s`
   },
   {
     tweet_id: 1041,
@@ -4173,7 +4173,7 @@ export default [
   },
   {
     tweet_id: 1044,
-    text: `Extremely Fast Cash and Never Even Owning a House.`
+    text: `Extremely Fast Cash and Never Even Owning a House`
   },
   {
     tweet_id: 1045,
@@ -4181,7 +4181,7 @@ export default [
   },
   {
     tweet_id: 1046,
-    text: `profitability or at risk of bankruptcy.`
+    text: `profitability or at risk of bankruptcy`
   },
   {
     tweet_id: 1047,
@@ -4249,7 +4249,7 @@ export default [
   },
   {
     tweet_id: 1063,
-    text: `You do not need to spend hundreds for a chain link,`
+    text: `You do not need to spend hundreds for a chain link`
   },
   {
     tweet_id: 1064,
@@ -4301,7 +4301,7 @@ export default [
   },
   {
     tweet_id: 1076,
-    text: `Have Fuller,`
+    text: `Have Fuller`
   },
   {
     tweet_id: 1077,
@@ -4357,11 +4357,11 @@ export default [
   },
   {
     tweet_id: 1090,
-    text: `Four Steps To Financial Freedom`
+    text: `Four'Steps To Financial Freedom`
   },
   {
     tweet_id: 1091,
-    text: `A quick snow shelter you can make without tools.`
+    text: `A quick snow shelter you can make without tools`
   },
   {
     tweet_id: 1092,
@@ -4393,7 +4393,7 @@ export default [
   },
   {
     tweet_id: 1099,
-    text: `The incredible energy,`
+    text: `The incredible energy`
   },
   {
     tweet_id: 1100,
@@ -4401,11 +4401,11 @@ export default [
   },
   {
     tweet_id: 1101,
-    text: `A proper warm up prepares you for physical exercise, allowing you to perform better.`
+    text: `A proper warm up prepares you for physical exercise, allowing you to perform better`
   },
   {
     tweet_id: 1102,
-    text: `Order Empire.`
+    text: `Order Empire`
   },
   {
     tweet_id: 1103,
@@ -4509,7 +4509,7 @@ export default [
   },
   {
     tweet_id: 1128,
-    text: `up the glass of water I spilt it over the table.`
+    text: `up the glass of water I spilt it over the table`
   },
   {
     tweet_id: 1129,
@@ -4537,7 +4537,7 @@ export default [
   },
   {
     tweet_id: 1135,
-    text: `Guide and Not Learn to Make Real Cash in the Stock Market.`
+    text: `Guide and Not Learn to Make Real Cash in the Stock Market`
   },
   {
     tweet_id: 1136,
@@ -4557,7 +4557,7 @@ export default [
   },
   {
     tweet_id: 1140,
-    text: `Musical opportunities.`
+    text: `Musical opportunities`
   },
   {
     tweet_id: 1141,
@@ -4569,11 +4569,11 @@ export default [
   },
   {
     tweet_id: 1143,
-    text: `they operate, and the many benefits they provide is quite fascinating.`
+    text: `they operate, and the many benefits they provide is quite fascinating`
   },
   {
     tweet_id: 1144,
-    text: `Unlike the golden boys who were born with a silver spoon in their mouths, Joe and I toiled in the dust`
+    text: `Unlike the golden boys who were born with a silver'spoon in their mouths, Joe and I toiled in the dust`
   },
   {
     tweet_id: 1145,
@@ -4597,7 +4597,7 @@ export default [
   },
   {
     tweet_id: 1150,
-    text: `to discuss money with your soon-to-be`
+    text: `to discuss money with your'soon-to-be`
   },
   {
     tweet_id: 1151,
@@ -4605,7 +4605,7 @@ export default [
   },
   {
     tweet_id: 1152,
-    text: `Ideas for chandelier,`
+    text: `Ideas for chandelier`
   },
   {
     tweet_id: 1153,
@@ -4661,7 +4661,7 @@ export default [
   },
   {
     tweet_id: 1166,
-    text: `outdoors...`
+    text: `outdoors..`
   },
   {
     tweet_id: 1167,
@@ -4669,7 +4669,7 @@ export default [
   },
   {
     tweet_id: 1168,
-    text: `your problem as a mountain.`
+    text: `your problem as a mountain`
   },
   {
     tweet_id: 1169,
@@ -4689,7 +4689,7 @@ export default [
   },
   {
     tweet_id: 1173,
-    text: `your dog if he has a fear of loud noises.`
+    text: `your dog if he has a fear of loud noises`
   },
   {
     tweet_id: 1174,
@@ -4713,7 +4713,7 @@ export default [
   },
   {
     tweet_id: 1179,
-    text: `Furniture. Pine Armoire Mission Folding Chair Shaker Hall Table Wash Stand. Games.`
+    text: `Furniture. Pine Armoire Mission Folding Chair'Shaker Hall Table Wash Stand. Games`
   },
   {
     tweet_id: 1180,
@@ -4733,7 +4733,7 @@ export default [
   },
   {
     tweet_id: 1184,
-    text: `Make no mistakes - this is not a leaf blower, vacuum cleaner,`
+    text: `Make no mistakes - this is not a leaf blower, vacuum cleaner`
   },
   {
     tweet_id: 1185,
@@ -4757,7 +4757,7 @@ export default [
   },
   {
     tweet_id: 1190,
-    text: `maximum economy and directness.`
+    text: `maximum economy and directness`
   },
   {
     tweet_id: 1191,
@@ -4817,7 +4817,7 @@ export default [
   },
   {
     tweet_id: 1205,
-    text: `Look closely at old letters, signatures,`
+    text: `Look closely at old letters, signatures`
   },
   {
     tweet_id: 1206,
@@ -4829,7 +4829,7 @@ export default [
   },
   {
     tweet_id: 1208,
-    text: `objects and people.`
+    text: `objects and people`
   },
   {
     tweet_id: 1209,
@@ -4929,7 +4929,7 @@ export default [
   },
   {
     tweet_id: 1233,
-    text: `And the best part...`
+    text: `And the best part..`
   },
   {
     tweet_id: 1234,
@@ -4949,7 +4949,7 @@ export default [
   },
   {
     tweet_id: 1238,
-    text: `If on the other hand, you’re surrounded by beauty and order.`
+    text: `If on the other hand, you’re surrounded by beauty and order`
   },
   {
     tweet_id: 1239,
@@ -5005,7 +5005,7 @@ export default [
   },
   {
     tweet_id: 1252,
-    text: `How to balance a reed.`
+    text: `How to balance a reed`
   },
   {
     tweet_id: 1253,
@@ -5053,7 +5053,7 @@ export default [
   },
   {
     tweet_id: 1264,
-    text: `to door leafleting solely for their survival. The initial making money`
+    text: `to door leafleting solely for their'survival. The initial making money`
   },
   {
     tweet_id: 1265,
@@ -5065,7 +5065,7 @@ export default [
   },
   {
     tweet_id: 1267,
-    text: `best expression of love and what you might want to do instead.`
+    text: `best expression of love and what you might want to do instead`
   },
   {
     tweet_id: 1268,
@@ -5117,7 +5117,7 @@ export default [
   },
   {
     tweet_id: 1280,
-    text: `oceanfront home appeals to you,`
+    text: `oceanfront home appeals to you`
   },
   {
     tweet_id: 1281,
@@ -5205,7 +5205,7 @@ export default [
   },
   {
     tweet_id: 1302,
-    text: `a builder does to build your home.`
+    text: `a builder does to build your home`
   },
   {
     tweet_id: 1303,
@@ -5249,15 +5249,15 @@ export default [
   },
   {
     tweet_id: 1313,
-    text: `that great lifestyle.`
+    text: `that great lifestyle`
   },
   {
     tweet_id: 1314,
-    text: `your opponent away from the baseline on your serve which will widen`
+    text: `your opponent away from the baseline on your'serve which will widen`
   },
   {
     tweet_id: 1315,
-    text: `opponent does some more running.`
+    text: `opponent does some more running`
   },
   {
     tweet_id: 1316,
@@ -5369,7 +5369,7 @@ export default [
   },
   {
     tweet_id: 1343,
-    text: `effect on your body as well as skin.`
+    text: `effect on your body as well as skin`
   },
   {
     tweet_id: 1344,
@@ -5381,7 +5381,7 @@ export default [
   },
   {
     tweet_id: 1346,
-    text: `In both cases, our knowledge of the reaction cross section is limited by the availability of experimental data. In stars,`
+    text: `In both cases, our knowledge of the reaction cross section is limited by the availability of experimental data. In stars`
   },
   {
     tweet_id: 1347,
@@ -5441,7 +5441,7 @@ export default [
   },
   {
     tweet_id: 1361,
-    text: `Taxpayer Statements`
+    text: `Taxpayer'Statements`
   },
   {
     tweet_id: 1362,
@@ -5457,7 +5457,7 @@ export default [
   },
   {
     tweet_id: 1365,
-    text: `You ve been in business for six months now and your clients just won’t leave you alone! They want more products from you and retailers are`
+    text: `You've been in business for'six months now and your clients just won’t leave you alone! They want more products from you and retailers are`
   },
   {
     tweet_id: 1366,
@@ -5481,7 +5481,7 @@ export default [
   },
   {
     tweet_id: 1371,
-    text: `into your cereal boxes and eat your cereal.`
+    text: `into your cereal boxes and eat your cereal`
   },
   {
     tweet_id: 1372,
@@ -5505,7 +5505,7 @@ export default [
   },
   {
     tweet_id: 1377,
-    text: `When exactly to SHOW UP and when to LEAVE...and WHY.`
+    text: `When exactly to SHOW UP and when to LEAVE...and WHY`
   },
   {
     tweet_id: 1378,
@@ -5569,7 +5569,7 @@ export default [
   },
   {
     tweet_id: 1393,
-    text: `deceit by shrewd individuals, who are bent on using love, romance, lust, sex,`
+    text: `deceit by shrewd individuals, who are bent on using love, romance, lust, sex`
   },
   {
     tweet_id: 1394,
@@ -5585,7 +5585,7 @@ export default [
   },
   {
     tweet_id: 1397,
-    text: `The minimum sized tank you should begin with.`
+    text: `The minimum sized tank you should begin with`
   },
   {
     tweet_id: 1398,
@@ -5609,7 +5609,7 @@ export default [
   },
   {
     tweet_id: 1403,
-    text: `experience and learning of hundreds of people and their dogs,`
+    text: `experience and learning of hundreds of people and their dogs`
   },
   {
     tweet_id: 1404,
@@ -5625,7 +5625,7 @@ export default [
   },
   {
     tweet_id: 1407,
-    text: `See how the Right Knowledge will Remove the Mystery of Hair Color.`
+    text: `See how the Right Knowledge will Remove the Mystery of Hair Color`
   },
   {
     tweet_id: 1408,
@@ -5665,7 +5665,7 @@ export default [
   },
   {
     tweet_id: 1417,
-    text: `How to Pick a winning lure.`
+    text: `How to Pick a winning lure`
   },
   {
     tweet_id: 1418,
@@ -5833,7 +5833,7 @@ export default [
   },
   {
     tweet_id: 1459,
-    text: `BECOMES EFFORTLESS AND AUTOMATIC.`
+    text: `BECOMES EFFORTLESS AND AUTOMATIC`
   },
   {
     tweet_id: 1460,
@@ -5841,7 +5841,7 @@ export default [
   },
   {
     tweet_id: 1461,
-    text: `The next time your sweetheart is checking her daily e-mail,`
+    text: `The next time your'sweetheart is checking her daily e-mail`
   },
   {
     tweet_id: 1462,
@@ -5857,7 +5857,7 @@ export default [
   },
   {
     tweet_id: 1465,
-    text: `I Can’t Find You,`
+    text: `I Can’t Find You`
   },
   {
     tweet_id: 1466,
@@ -5881,7 +5881,7 @@ export default [
   },
   {
     tweet_id: 1471,
-    text: `everybody, including you and me.`
+    text: `everybody, including you and me`
   },
   {
     tweet_id: 1472,
@@ -5909,7 +5909,7 @@ export default [
   },
   {
     tweet_id: 1478,
-    text: `Planning Framework For Successful Business`
+    text: `Planning Framework For'Successful Business`
   },
   {
     tweet_id: 1479,
@@ -5921,7 +5921,7 @@ export default [
   },
   {
     tweet_id: 1481,
-    text: `to keep yourself from becoming so emotionally overwhelmed you can’t make any progress at all.`
+    text: `to keep yourself from becoming so emotionally overwhelmed you can’t make any progress at all`
   },
   {
     tweet_id: 1482,
@@ -5949,7 +5949,7 @@ export default [
   },
   {
     tweet_id: 1488,
-    text: `Disaster Survival Why You Should Get Your RV Ready`
+    text: `Disaster'Survival Why You Should Get Your RV Ready`
   },
   {
     tweet_id: 1489,
@@ -5993,7 +5993,7 @@ export default [
   },
   {
     tweet_id: 1499,
-    text: `and hair SHEDDING. Discover`
+    text: `and hair'SHEDDING. Discover`
   },
   {
     tweet_id: 1500,
@@ -6033,7 +6033,7 @@ export default [
   },
   {
     tweet_id: 1509,
-    text: `Till the Till the During Till the Till the During Tillth* beginning`
+    text: `Till the Till the During Till the Till the During Till the beginning`
   },
   {
     tweet_id: 1510,
@@ -6041,11 +6041,11 @@ export default [
   },
   {
     tweet_id: 1511,
-    text: `To Anything You ve Ever`
+    text: `To Anything You've Ever`
   },
   {
     tweet_id: 1512,
-    text: `on, go on 10. take back 10. go on, keep on 1. think about 2. worry about 3. smile about 4. dream about 5. wonder`
+    text: `on, go on, take back, go on, keep on 1. think about 2. worry about 3. smile about 4. dream about 5. wonder`
   },
   {
     tweet_id: 1513,
@@ -6065,11 +6065,11 @@ export default [
   },
   {
     tweet_id: 1517,
-    text: `and a Miskito Indian in Nicaragua. I, too, am a potential victim of totalitarianism.22 The principal intellectual guru behind`
+    text: `and a Miskito Indian in Nicaragua. I, too, am a potential victim of totalitarianism. The principal intellectual guru behind`
   },
   {
     tweet_id: 1518,
-    text: `Resume and Cover Letter Secrets Revealed`
+    text: `Resume and Cover Letter'Secrets Revealed`
   },
   {
     tweet_id: 1519,
@@ -6093,11 +6093,11 @@ export default [
   },
   {
     tweet_id: 1524,
-    text: `THE TWENTY FIRST CENTURY YOU NEED TO BE WEALTHY TO HOLD THE POWER.`
+    text: `THE TWENTY FIRST CENTURY YOU NEED TO BE WEALTHY TO HOLD THE POWER`
   },
   {
     tweet_id: 1525,
-    text: `Response Degradation Surgical To Mechanical Technologies Stimulation Organizer Organizer. Organizer: Organizer: I A`
+    text: `Response Degradation Surgical To Mechanical Technologies Stimulation Organizer Organizer. Organizer:`
   },
   {
     tweet_id: 1526,
@@ -6105,7 +6105,7 @@ export default [
   },
   {
     tweet_id: 1527,
-    text: `How to create a drop -dead, kick butt wooing strategy that is virtually guaranteed to`
+    text: `How to create a drop-dead, kick butt wooing strategy that is virtually guaranteed to`
   },
   {
     tweet_id: 1528,
@@ -6169,7 +6169,7 @@ export default [
   },
   {
     tweet_id: 1543,
-    text: `52 Mind Power Secrets`
+    text: `52 Mind Power'Secrets`
   },
   {
     tweet_id: 1544,
@@ -6177,7 +6177,7 @@ export default [
   },
   {
     tweet_id: 1545,
-    text: `You’ll  love it... especially when`
+    text: `You’ll love it... especially when`
   },
   {
     tweet_id: 1546,
@@ -6193,7 +6193,7 @@ export default [
   },
   {
     tweet_id: 1549,
-    text: `NOTHING, WHILE YOU WILL BE MAKING BIG CASH.`
+    text: `NOTHING, WHILE YOU WILL BE MAKING BIG CASH`
   },
   {
     tweet_id: 1550,
@@ -6225,7 +6225,7 @@ export default [
   },
   {
     tweet_id: 1557,
-    text: `Screen for regulators. Distribution. 49-14. Dust catcher. Regulator. Regulator. Regulators. Regulators. Regulators. Regulators. Regulators.`
+    text: `Screen for regulators. Distribution. 49-14. Dust catcher. Regulator. Regulator. Regulators. Regulators. Regulators. Regulators. Regulators`
   },
   {
     tweet_id: 1558,
@@ -6233,7 +6233,7 @@ export default [
   },
   {
     tweet_id: 1559,
-    text: `and club path I saw the golf swing in a new light.`
+    text: `and club path I saw the golf swing in a new light`
   },
   {
     tweet_id: 1560,
@@ -6245,7 +6245,7 @@ export default [
   },
   {
     tweet_id: 1562,
-    text: `The interesting thing about dogs is that, while they have a natural instinct to want to dig, bite, whine, jump, pull on the leash, chew,`
+    text: `The interesting thing about dogs is that, while they have a natural instinct to want to dig, bite, whine, jump, pull on the leash, chew`
   },
   {
     tweet_id: 1563,
@@ -6293,7 +6293,7 @@ export default [
   },
   {
     tweet_id: 1574,
-    text: `Glad you asked.`
+    text: `Glad you asked`
   },
   {
     tweet_id: 1575,
@@ -6301,7 +6301,7 @@ export default [
   },
   {
     tweet_id: 1576,
-    text: `it. You might be relieved to learn that`
+    text: `You might be relieved to learn that`
   },
   {
     tweet_id: 1577,
@@ -6373,11 +6373,11 @@ export default [
   },
   {
     tweet_id: 1594,
-    text: `that I was a Woman of Fortune, Fortune , Fortune, Fortune, Fortune, Fortune, Fortune , Fortune , Fortune , Fortune, Fortune , Fortune ,`
+    text: `that I was a Woman of Fortune, Fortune , Fortune, Fortune, Fortune, Fortune, Fortune , Fortune , Fortune , Fortune, Fortune , Fortune `
   },
   {
     tweet_id: 1595,
-    text: `now? With My Simple Guitar s`
+    text: `now? With My Simple Guitar's`
   },
   {
     tweet_id: 1596,
@@ -6445,7 +6445,7 @@ export default [
   },
   {
     tweet_id: 1612,
-    text: `LOVELY L1NGE1ELO0000 LOVELY NE00000000000 LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY NISS000000000`
+    text: `LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY LOVELY`
   },
   {
     tweet_id: 1613,
@@ -6493,7 +6493,7 @@ export default [
   },
   {
     tweet_id: 1624,
-    text: `#4) Experiments on Rotation (video made`
+    text: `Experiments on Rotation: video made`
   },
   {
     tweet_id: 1625,
@@ -6517,7 +6517,7 @@ export default [
   },
   {
     tweet_id: 1630,
-    text: `, Snowy! Snowy! Snowy, it’s S/im! B You see - no snoring, S/im. A It’s the first time.`
+    text: `Snowy! Snowy! Snowy, it’s S/im! B You see - no snoring, S/im. A It’s the first time`
   },
   {
     tweet_id: 1631,
@@ -6613,7 +6613,7 @@ export default [
   },
   {
     tweet_id: 1654,
-    text: `But don t, because of all this talk about`
+    text: `But don't, because of all this talk about`
   },
   {
     tweet_id: 1655,
@@ -6641,7 +6641,7 @@ export default [
   },
   {
     tweet_id: 1661,
-    text: `Car Salesmen Are Licensed and Regulated`
+    text: `Car'Salesmen Are Licensed and Regulated`
   },
   {
     tweet_id: 1662,
@@ -6721,7 +6721,7 @@ export default [
   },
   {
     tweet_id: 1681,
-    text: `public, miscellaneous,`
+    text: `public, miscellaneous`
   },
   {
     tweet_id: 1682,
@@ -6733,7 +6733,7 @@ export default [
   },
   {
     tweet_id: 1684,
-    text: `MAGICALLY COMMAND MIRACLES OF WEALTH,`
+    text: `MAGICALLY COMMAND MIRACLES OF WEALTH`
   },
   {
     tweet_id: 1685,
@@ -6757,7 +6757,7 @@ export default [
   },
   {
     tweet_id: 1690,
-    text: `headquartered,`
+    text: `headquartered`
   },
   {
     tweet_id: 1691,
@@ -6773,7 +6773,7 @@ export default [
   },
   {
     tweet_id: 1694,
-    text: `juice without a fight.`
+    text: `juice without a fight`
   },
   {
     tweet_id: 1695,
@@ -6801,11 +6801,11 @@ export default [
   },
   {
     tweet_id: 1701,
-    text: `Or real estate... Or anything else...`
+    text: `Or real estate... Or anything else..`
   },
   {
     tweet_id: 1702,
-    text: `Those are just some of the things no one is talking about,`
+    text: `Those are just some of the things no one is talking about`
   },
   {
     tweet_id: 1703,
@@ -6821,7 +6821,7 @@ export default [
   },
   {
     tweet_id: 1706,
-    text: `E E E Center of symmetry (present`
+    text: `Center of symmetry`
   },
   {
     tweet_id: 1707,
@@ -6837,7 +6837,7 @@ export default [
   },
   {
     tweet_id: 1710,
-    text: `to sign documents that you don’t understand, and these are no exception.`
+    text: `to sign documents that you don’t understand, and these are no exception`
   },
   {
     tweet_id: 1711,
@@ -6853,7 +6853,7 @@ export default [
   },
   {
     tweet_id: 1714,
-    text: `Get thousands more for your pain and suffering by simply following the proper steps to document your claim!`
+    text: `Get thousands more for your pain and suffering by simply following the proper'steps to document your claim!`
   },
   {
     tweet_id: 1715,
@@ -6873,7 +6873,7 @@ export default [
   },
   {
     tweet_id: 1719,
-    text: `from a weakling to a MAGNICFICANT HE-MAN-MUSCLED BODY in Just 10 Minutes a Day - and he delivered.`
+    text: `from a weakling to a MAGNICFICANT HE-MAN-MUSCLED BODY in Just 10 Minutes a Day - and he delivered`
   },
   {
     tweet_id: 1720,
@@ -6905,7 +6905,7 @@ export default [
   },
   {
     tweet_id: 1727,
-    text: `You have the unique power to make it a beautiful place or a real mess.`
+    text: `You have the unique power to make it a beautiful place or a real mess`
   },
   {
     tweet_id: 1728,
@@ -6921,7 +6921,7 @@ export default [
   },
   {
     tweet_id: 1731,
-    text: `you instructions. It shows you, step-by-step,`
+    text: `you instructions. It shows you, step-by-step`
   },
   {
     tweet_id: 1732,
@@ -6937,7 +6937,7 @@ export default [
   },
   {
     tweet_id: 1735,
-    text: `tuna immediately,`
+    text: `tuna immediately`
   },
   {
     tweet_id: 1736,
@@ -6981,7 +6981,7 @@ export default [
   },
   {
     tweet_id: 1746,
-    text: `Stew Peaches.`
+    text: `Stew Peaches`
   },
   {
     tweet_id: 1747,
@@ -7057,7 +7057,7 @@ export default [
   },
   {
     tweet_id: 1765,
-    text: `the country during the summer of 1999.`
+    text: `the country during the summer of 1999`
   },
   {
     tweet_id: 1766,
@@ -7073,7 +7073,7 @@ export default [
   },
   {
     tweet_id: 1769,
-    text: `, Chop.`
+    text: `Chop`
   },
   {
     tweet_id: 1770,
@@ -7089,7 +7089,7 @@ export default [
   },
   {
     tweet_id: 1773,
-    text: `which to exert extreme power! Greater variety.`
+    text: `which to exert extreme power! Greater variety`
   },
   {
     tweet_id: 1774,
@@ -7105,7 +7105,7 @@ export default [
   },
   {
     tweet_id: 1777,
-    text: `people with fantastic abilities who were always broke,`
+    text: `people with fantastic abilities who were always broke`
   },
   {
     tweet_id: 1778,
@@ -7149,7 +7149,7 @@ export default [
   },
   {
     tweet_id: 1788,
-    text: `opposite of Nicole, he thought,`
+    text: `opposite of Nicole, he thought`
   },
   {
     tweet_id: 1789,
@@ -7201,7 +7201,7 @@ export default [
   },
   {
     tweet_id: 1801,
-    text: `in the Gulf of Mexico.`
+    text: `in the Gulf of Mexico`
   },
   {
     tweet_id: 1802,
@@ -7225,7 +7225,7 @@ export default [
   },
   {
     tweet_id: 1807,
-    text: `her she might easily write, and by that means put it out of the cruel Dalton’s power to`
+    text: `her'she might easily write, and by that means put it out of the cruel Dalton’s power to`
   },
   {
     tweet_id: 1808,
@@ -7285,7 +7285,7 @@ export default [
   },
   {
     tweet_id: 1822,
-    text: `fruit originated,`
+    text: `fruit originated`
   },
   {
     tweet_id: 1823,
@@ -7293,7 +7293,7 @@ export default [
   },
   {
     tweet_id: 1824,
-    text: `Hungry Private Investigators, Yet,`
+    text: `Hungry Private Investigators, Yet`
   },
   {
     tweet_id: 1825,
@@ -7313,7 +7313,7 @@ export default [
   },
   {
     tweet_id: 1829,
-    text: `A ey They They made the made the made the family $1-a-day ,9: worry-free entertainment choice. l . l choice. choice.`
+    text: `A ey They They made the made the made the family $1-a-day ,9: worry-free entertainment choice. l . l choice. choice`
   },
   {
     tweet_id: 1830,
@@ -7333,7 +7333,7 @@ export default [
   },
   {
     tweet_id: 1834,
-    text: `of touch and hugging.`
+    text: `of touch and hugging`
   },
   {
     tweet_id: 1835,
@@ -7369,7 +7369,7 @@ export default [
   },
   {
     tweet_id: 1843,
-    text: `Your Attitude - Your Self-Esteem`
+    text: `Your Attitude - Your'Self-Esteem`
   },
   {
     tweet_id: 1844,
@@ -7417,7 +7417,7 @@ export default [
   },
   {
     tweet_id: 1855,
-    text: `What to take for arthritis.`
+    text: `What to take for arthritis`
   },
   {
     tweet_id: 1856,
@@ -7433,7 +7433,7 @@ export default [
   },
   {
     tweet_id: 1859,
-    text: `100.000 100,000 50,000 stated, stated. Btated. Capital not stated. Capital not stated. 50,000 stated, stated,`
+    text: `100.000 100,000 50,000 stated, stated. Btated. Capital not stated. Capital not stated. 50,000 stated, stated`
   },
   {
     tweet_id: 1860,
@@ -7545,7 +7545,7 @@ export default [
   },
   {
     tweet_id: 1887,
-    text: `time clients with deep pockets.`
+    text: `time clients with deep pockets`
   },
   {
     tweet_id: 1888,
@@ -7557,11 +7557,11 @@ export default [
   },
   {
     tweet_id: 1890,
-    text: `Common causes of a poor memory. How to organize your memory for easy retrieval of information. How your subconscious helps you`
+    text: `Common causes of a poor memory. How to organize your memory for easy retrieval of information. How your'subconscious helps you`
   },
   {
     tweet_id: 1891,
-    text: `to an honest, loyal, loving, successful,`
+    text: `to an honest, loyal, loving, successful`
   },
   {
     tweet_id: 1892,
@@ -7585,7 +7585,7 @@ export default [
   },
   {
     tweet_id: 1897,
-    text: `into rotary Motion. eating Motion. Motion. Motion. Motion.`
+    text: `into rotary Motion. eating Motion. Motion. Motion. Motion`
   },
   {
     tweet_id: 1898,
@@ -7617,7 +7617,7 @@ export default [
   },
   {
     tweet_id: 1905,
-    text: `I’m just about ready to go. D ID YOU JUST FINISH DUSTING THE HOUSE? N O,`
+    text: `I’m just about ready to go. D ID YOU JUST FINISH DUSTING THE HOUSE? N O`
   },
   {
     tweet_id: 1906,
@@ -7761,7 +7761,7 @@ export default [
   },
   {
     tweet_id: 1941,
-    text: `LOSS SECRET here-just an intro to BUY more JUNK.`
+    text: `LOSS SECRET here-just an intro to BUY more JUNK`
   },
   {
     tweet_id: 1942,
@@ -7821,7 +7821,7 @@ export default [
   },
   {
     tweet_id: 1956,
-    text: `suffit pour les bien exprimer.`
+    text: `suffit pour les bien exprimer`
   },
   {
     tweet_id: 1957,
@@ -7833,11 +7833,11 @@ export default [
   },
   {
     tweet_id: 1959,
-    text: `Is your saliva thick? Do people frequently`
+    text: `Is your'saliva thick? Do people frequently`
   },
   {
     tweet_id: 1960,
-    text: `Established WebSite For Sale`
+    text: `Established WebSite For'Sale`
   },
   {
     tweet_id: 1961,
@@ -7849,7 +7849,7 @@ export default [
   },
   {
     tweet_id: 1963,
-    text: `- Our social circles generally tend to`
+    text: `- Our'social circles generally tend to`
   },
   {
     tweet_id: 1964,
@@ -7869,7 +7869,7 @@ export default [
   },
   {
     tweet_id: 1968,
-    text: `We have a PROVEN, SIMPLE,`
+    text: `We have a PROVEN, SIMPLE`
   },
   {
     tweet_id: 1969,
@@ -8021,7 +8021,7 @@ export default [
   },
   {
     tweet_id: 2006,
-    text: `Find out eating secrets that you ve never heard before.`
+    text: `Find out eating secrets that you've never heard before`
   },
   {
     tweet_id: 2007,
@@ -8105,7 +8105,7 @@ export default [
   },
   {
     tweet_id: 2027,
-    text: `reference car Car . mark .`
+    text: `reference car Car . mark `
   },
   {
     tweet_id: 2028,
@@ -8213,7 +8213,7 @@ export default [
   },
   {
     tweet_id: 2054,
-    text: `Ways you can practice your flirting skills to get ready for serious flirting where`
+    text: `Ways you can practice your flirting skills to get ready for'serious flirting where`
   },
   {
     tweet_id: 2055,
@@ -8253,7 +8253,7 @@ export default [
   },
   {
     tweet_id: 2064,
-    text: `I heard that I could attract hummingbirds with Water.`
+    text: `I heard that I could attract hummingbirds with Water`
   },
   {
     tweet_id: 2065,
@@ -8261,7 +8261,7 @@ export default [
   },
   {
     tweet_id: 2066,
-    text: `How your entire world (as you perceive it) is created through SOUND,`
+    text: `How your entire world (as you perceive it) is created through SOUND`
   },
   {
     tweet_id: 2067,
@@ -8289,7 +8289,7 @@ export default [
   },
   {
     tweet_id: 2073,
-    text: `things again.`
+    text: `things again`
   },
   {
     tweet_id: 2074,
@@ -8349,7 +8349,7 @@ export default [
   },
   {
     tweet_id: 2088,
-    text: `In my experience,`
+    text: `In my experience`
   },
   {
     tweet_id: 2089,
@@ -8389,7 +8389,7 @@ export default [
   },
   {
     tweet_id: 2098,
-    text: `money again Get what you want or something better Become more`
+    text: `money again Get what you want or'something better Become more`
   },
   {
     tweet_id: 2099,
@@ -8397,7 +8397,7 @@ export default [
   },
   {
     tweet_id: 2100,
-    text: `Spiritual Healing For Your Soul`
+    text: `Spiritual Healing For Your'Soul`
   },
   {
     tweet_id: 2101,
@@ -8445,11 +8445,11 @@ export default [
   },
   {
     tweet_id: 2112,
-    text: `I have a deeper understanding of my relationship with sugar now and how it’s always controlled me. I love when my friends,`
+    text: `I have a deeper understanding of my relationship with sugar now and how it’s always controlled me. I love when my friends`
   },
   {
     tweet_id: 2113,
-    text: `city of fresh city of fresh city of fresh wwwwwatatatatatererererer,especially , especially , especially , especially , especially,`
+    text: `city of fresh city of fresh city of fresh wwwwwatatatatatererererer,especially , especially , especially , especially , especially`
   },
   {
     tweet_id: 2114,
@@ -8461,7 +8461,7 @@ export default [
   },
   {
     tweet_id: 2116,
-    text: `"Tells it as it really is! The boats,`
+    text: `"Tells it as it really is! The boats`
   },
   {
     tweet_id: 2117,
@@ -8481,7 +8481,7 @@ export default [
   },
   {
     tweet_id: 2121,
-    text: `schemes, draperies,`
+    text: `schemes, draperies`
   },
   {
     tweet_id: 2122,
@@ -8633,7 +8633,7 @@ export default [
   },
   {
     tweet_id: 2159,
-    text: `Come back with me 14 years ago when I was just a poor small town`
+    text: `Come back with me 14 years ago when I was just a poor'small town`
   },
   {
     tweet_id: 2160,
@@ -8665,15 +8665,15 @@ export default [
   },
   {
     tweet_id: 2167,
-    text: `were heated. 10. 11. llllllllllllllllll team of geologists are exploring llllllllllllllllll llllllllllllllllll coastline.`
+    text: `were heated. 10. 11. llllllllllllllllll team of geologists are exploring llllllllllllllllll llllllllllllllllll coastline`
   },
   {
     tweet_id: 2168,
-    text: `environment at home and work...`
+    text: `environment at home and work..`
   },
   {
     tweet_id: 2169,
-    text: `performance,`
+    text: `performance`
   },
   {
     tweet_id: 2170,
@@ -8861,11 +8861,11 @@ export default [
   },
   {
     tweet_id: 2216,
-    text: `wonders for your sunburn. nice bathtub to sink into. So just mix together the baking soda and some water, and generously`
+    text: `wonders for your'sunburn. nice bathtub to sink into. So just mix together the baking soda and some water, and generously`
   },
   {
     tweet_id: 2217,
-    text: `friends and how we ignored the problems with our thumbs, fingers,`
+    text: `friends and how we ignored the problems with our thumbs, fingers`
   },
   {
     tweet_id: 2218,
@@ -8925,7 +8925,7 @@ export default [
   },
   {
     tweet_id: 2232,
-    text: `You will unlock the door to the, Until Now,`
+    text: `You will unlock the door to the, Until Now`
   },
   {
     tweet_id: 2233,
@@ -8941,7 +8941,7 @@ export default [
   },
   {
     tweet_id: 2236,
-    text: `the street through your outfits.`
+    text: `the street through your outfits`
   },
   {
     tweet_id: 2237,
@@ -8989,7 +8989,7 @@ export default [
   },
   {
     tweet_id: 2248,
-    text: `able to make anything work for them.`
+    text: `able to make anything work for them`
   },
   {
     tweet_id: 2249,
@@ -9053,7 +9053,7 @@ export default [
   },
   {
     tweet_id: 2264,
-    text: `to curing tinnitus by changing your diet...`
+    text: `to curing tinnitus by changing your diet..`
   },
   {
     tweet_id: 2265,
@@ -9069,7 +9069,7 @@ export default [
   },
   {
     tweet_id: 2268,
-    text: `Asked previously. Mentally. Asked previously. Feda. Feda. Feda. Present. Present. Present at one of two sittings. Present. Present. Herself.`
+    text: `Asked previously. Mentally. Asked previously. Feda. Feda. Feda. Present. Present. Present at one of two sittings. Present. Present. Herself`
   },
   {
     tweet_id: 2269,
@@ -9121,7 +9121,7 @@ export default [
   },
   {
     tweet_id: 2281,
-    text: `deal of energy.`
+    text: `deal of energy`
   },
   {
     tweet_id: 2282,
@@ -9169,7 +9169,7 @@ export default [
   },
   {
     tweet_id: 2293,
-    text: `Why people will be smiling and laughing as they happily hand over money to you.`
+    text: `Why people will be smiling and laughing as they happily hand over money to you`
   },
   {
     tweet_id: 2294,
@@ -9185,11 +9185,11 @@ export default [
   },
   {
     tweet_id: 2297,
-    text: `When you are seized by anxiety,`
+    text: `When you are seized by anxiety`
   },
   {
     tweet_id: 2298,
-    text: `first stride power, speed,`
+    text: `first stride power, speed`
   },
   {
     tweet_id: 2299,
@@ -9197,11 +9197,11 @@ export default [
   },
   {
     tweet_id: 2300,
-    text: `might might collide collide collide collide collide collide collide with, or with, or with, or with, or with, or with,`
+    text: `might might collide collide collide collide collide collide collide with, or with, or with, or with, or with, or with`
   },
   {
     tweet_id: 2301,
-    text: `7-PROVEN Insider Secrets`
+    text: `7-PROVEN Insider'Secrets`
   },
   {
     tweet_id: 2302,
@@ -9273,7 +9273,7 @@ export default [
   },
   {
     tweet_id: 2319,
-    text: `to leave a calling card. Time is money. Throw a practice party.`
+    text: `to leave a calling card. Time is money. Throw a practice party`
   },
   {
     tweet_id: 2320,
@@ -9285,7 +9285,7 @@ export default [
   },
   {
     tweet_id: 2322,
-    text: `With the falling eighth. 3. Repeat, three times,`
+    text: `With the falling eighth. 3. Repeat, three times`
   },
   {
     tweet_id: 2323,
@@ -9297,7 +9297,7 @@ export default [
   },
   {
     tweet_id: 2325,
-    text: `Improve Your Self-Esteem In Just One Weekend!`
+    text: `Improve Your'Self-Esteem In Just One Weekend!`
   },
   {
     tweet_id: 2326,
@@ -9313,7 +9313,7 @@ export default [
   },
   {
     tweet_id: 2329,
-    text: `tomorrow. On the face of it, Sizewell might well be such jam. That again was the implication of what Mr. Collyer said, but there has been a`
+    text: `tomorrow. On the face of it, Sizewell might well be such jam. That again was the implication of what Mr. Collyer'said, but there has been a`
   },
   {
     tweet_id: 2330,
@@ -9337,7 +9337,7 @@ export default [
   },
   {
     tweet_id: 2335,
-    text: `make extremely fast muscle and strength gains in particular bodyparts, e.g. chest, arms, glutes,`
+    text: `make extremely fast muscle and strength gains in particular bodyparts, e.g. chest, arms, glutes`
   },
   {
     tweet_id: 2336,
@@ -9345,7 +9345,7 @@ export default [
   },
   {
     tweet_id: 2337,
-    text: `rose, bishop, 33 rose, blush noisette, 33 rose, cabbage, 33, 34 rose, Candolle, 34 rose, Cumberland,`
+    text: `rose, bishop, 33 rose, blush noisette, 33 rose, cabbage, 33, 34 rose, Candolle, 34 rose, Cumberland`
   },
   {
     tweet_id: 2338,
@@ -9377,7 +9377,7 @@ export default [
   },
   {
     tweet_id: 2345,
-    text: `the surface and inflate into an oblated sphere.`
+    text: `the surface and inflate into an oblated sphere`
   },
   {
     tweet_id: 2346,
@@ -9417,7 +9417,7 @@ export default [
   },
   {
     tweet_id: 2355,
-    text: `Imagine this. You’re sitting at a restaurant with your beautiful date and everything seems to be going fine. But after ordering your meals,`
+    text: `Imagine this. You’re sitting at a restaurant with your beautiful date and everything seems to be going fine. But after ordering your meals`
   },
   {
     tweet_id: 2356,
@@ -9457,7 +9457,7 @@ export default [
   },
   {
     tweet_id: 2365,
-    text: `weaknesses of your company.`
+    text: `weaknesses of your company`
   },
   {
     tweet_id: 2366,
@@ -9565,7 +9565,7 @@ export default [
   },
   {
     tweet_id: 2392,
-    text: `Finally, the look and layout of your menu is just as important as what it says.`
+    text: `Finally, the look and layout of your menu is just as important as what it says`
   },
   {
     tweet_id: 2393,
@@ -9573,7 +9573,7 @@ export default [
   },
   {
     tweet_id: 2394,
-    text: `the midst of a huge, rowdy crowd.`
+    text: `the midst of a huge, rowdy crowd`
   },
   {
     tweet_id: 2395,
@@ -9581,7 +9581,7 @@ export default [
   },
   {
     tweet_id: 2396,
-    text: `99 Tips For Selling Your Home For Maximum Profit!`
+    text: `99 Tips For'Selling Your Home For Maximum Profit!`
   },
   {
     tweet_id: 2397,
@@ -9601,7 +9601,7 @@ export default [
   },
   {
     tweet_id: 2401,
-    text: `The 10 things you absolutely must avoid when using html.`
+    text: `The 10 things you absolutely must avoid when using html`
   },
   {
     tweet_id: 2402,
@@ -9629,11 +9629,11 @@ export default [
   },
   {
     tweet_id: 2408,
-    text: `pro, you’re never satisfied. THE`
+    text: `pro, you’re never'satisfied. THE`
   },
   {
     tweet_id: 2409,
-    text: `"countdown" tactic, trash talking, the "scare" tactic, getting hyped up, going "Pro",`
+    text: `"countdown" tactic, trash talking, the "scare" tactic, getting hyped up, going "Pro"`
   },
   {
     tweet_id: 2410,
@@ -9669,7 +9669,7 @@ export default [
   },
   {
     tweet_id: 2418,
-    text: `TO CREATE THE SQUARE SHAPE Build the structure. Shape your watermelon. Shape the young watermelon.`
+    text: `TO CREATE THE SQUARE SHAPE Build the structure. Shape your watermelon. Shape the young watermelon`
   },
   {
     tweet_id: 2419,
@@ -9793,7 +9793,7 @@ export default [
   },
   {
     tweet_id: 2449,
-    text: `This is real, but you ve probably never done or seen most of this. This isn’t stupid stuff like me telling you`
+    text: `This is real, but you've probably never done or'seen most of this. This isn’t stupid stuff like me telling you`
   },
   {
     tweet_id: 2450,
@@ -9813,7 +9813,7 @@ export default [
   },
   {
     tweet_id: 2454,
-    text: `of thousands of rows of data in seconds,`
+    text: `of thousands of rows of data in seconds`
   },
   {
     tweet_id: 2455,
@@ -9837,7 +9837,7 @@ export default [
   },
   {
     tweet_id: 2460,
-    text: `Gas Additives. Magnetic Devices.`
+    text: `Gas Additives. Magnetic Devices`
   },
   {
     tweet_id: 2461,
@@ -10017,7 +10017,7 @@ export default [
   },
   {
     tweet_id: 2505,
-    text: `work, backing,`
+    text: `work, backing`
   },
   {
     tweet_id: 2506,
@@ -10049,15 +10049,15 @@ export default [
   },
   {
     tweet_id: 2513,
-    text: `Tennis psychology.`
+    text: `Tennis psychology`
   },
   {
     tweet_id: 2514,
-    text: `liver sufferer and I will be bold here`
+    text: `liver'sufferer and I will be bold here`
   },
   {
     tweet_id: 2515,
-    text: `or I in prison - Deer, quail, ruffed grouse, wild turkey from State—penalty, Quail,`
+    text: `or I in prison - Deer, quail, ruffed grouse, wild turkey from State—penalty, Quail`
   },
   {
     tweet_id: 2516,
@@ -10093,7 +10093,7 @@ export default [
   },
   {
     tweet_id: 2524,
-    text: `Where to find the fish during the four seasons of the year and what baits to use to increase your chance of catching`
+    text: `Where to find the fish during the four'seasons of the year and what baits to use to increase your chance of catching`
   },
   {
     tweet_id: 2525,
@@ -10109,7 +10109,7 @@ export default [
   },
   {
     tweet_id: 2528,
-    text: `100 supercharged picture riddles,`
+    text: `100 supercharged picture riddles`
   },
   {
     tweet_id: 2529,
@@ -10117,7 +10117,7 @@ export default [
   },
   {
     tweet_id: 2530,
-    text: `everything you ve ever read or`
+    text: `everything you've ever read or`
   },
   {
     tweet_id: 2531,
@@ -10149,7 +10149,7 @@ export default [
   },
   {
     tweet_id: 2538,
-    text: `astrology secrets that make breaking out of your shell easier than you ever`
+    text: `astrology secrets that make breaking out of your'shell easier than you ever`
   },
   {
     tweet_id: 2539,
@@ -10185,7 +10185,7 @@ export default [
   },
   {
     tweet_id: 2547,
-    text: `LAND BIRDS, PESIDENT LAND BIRDS, PESIDENT LAND BIRDS, PESIDENT LAND BIRDS, RESIDENT LAND BIRDS, RESIDENT LAND BIRDS, PESIDENT LAND BIPDS,`
+    text: `LAND BIRDS, PESIDENT LAND BIRDS, PESIDENT LAND BIRDS, PESIDENT LAND BIRDS, RESIDENT LAND BIRDS, RESIDENT LAND BIRDS, PESIDENT LAND BIPDS`
   },
   {
     tweet_id: 2548,
@@ -10257,7 +10257,7 @@ export default [
   },
   {
     tweet_id: 2565,
-    text: `floatstone grain- to packstone mud-rich floatstone mud-rich floatstone gradual gradual gradual gradual gradual or sharp gradual or sharp`
+    text: `floatstone grain- to packstone mud-rich floatstone mud-rich floatstone gradual gradual gradual gradual gradual or'sharp gradual or'sharp`
   },
   {
     tweet_id: 2566,
@@ -10269,7 +10269,7 @@ export default [
   },
   {
     tweet_id: 2568,
-    text: `In essence, I’ve reversed all the risk.`
+    text: `In essence, I’ve reversed all the risk`
   },
   {
     tweet_id: 2569,
@@ -10289,19 +10289,19 @@ export default [
   },
   {
     tweet_id: 2573,
-    text: `If you are not happy with these dock plans,`
+    text: `If you are not happy with these dock plans`
   },
   {
     tweet_id: 2574,
-    text: `Parents, Is your Son or Daughter Prepared to Handle the Basic Money Tasks that Every`
+    text: `Parents, Is your'Son or Daughter Prepared to Handle the Basic Money Tasks that Every`
   },
   {
     tweet_id: 2575,
-    text: `Financial Corruption and Crime.`
+    text: `Financial Corruption and Crime`
   },
   {
     tweet_id: 2576,
-    text: `What Role Your Blogs Play In Your Success!`
+    text: `What Role Your Blogs Play In Your'Success!`
   },
   {
     tweet_id: 2577,
@@ -10413,7 +10413,7 @@ export default [
   },
   {
     tweet_id: 2604,
-    text: `Would you just take it easy on the fresh powder sands of Florida’s pristine beach’s sipping cold refreshing`
+    text: `Would you just take it easy on the fresh powder'sands of Florida’s pristine beach’s sipping cold refreshing`
   },
   {
     tweet_id: 2605,
@@ -10449,7 +10449,7 @@ export default [
   },
   {
     tweet_id: 2613,
-    text: `necessarily involve flying.`
+    text: `necessarily involve flying`
   },
   {
     tweet_id: 2614,
@@ -10481,7 +10481,7 @@ export default [
   },
   {
     tweet_id: 2621,
-    text: `Gold Silver & Crude Oil ! These are all examples, there are many more.`
+    text: `Gold Silver & Crude Oil ! These are all examples, there are many more`
   },
   {
     tweet_id: 2622,
@@ -10525,7 +10525,7 @@ export default [
   },
   {
     tweet_id: 2632,
-    text: `of events leading up to his coronation.`
+    text: `of events leading up to his coronation`
   },
   {
     tweet_id: 2633,
@@ -10569,7 +10569,7 @@ export default [
   },
   {
     tweet_id: 2643,
-    text: `Soccer Fitness 101 - 10 Ways to Get Fit for Soccer Right Now`
+    text: `Soccer Fitness 101 - 10 Ways to Get Fit for'Soccer Right Now`
   },
   {
     tweet_id: 2644,
@@ -10641,11 +10641,11 @@ export default [
   },
   {
     tweet_id: 2661,
-    text: `to Allergy and Asthma Relief.`
+    text: `to Allergy and Asthma Relief`
   },
   {
     tweet_id: 2662,
-    text: `and the plaintiff sues for that amount.`
+    text: `and the plaintiff sues for that amount`
   },
   {
     tweet_id: 2663,
@@ -10653,7 +10653,7 @@ export default [
   },
   {
     tweet_id: 2664,
-    text: `Imagine...Having $2000, $3000,`
+    text: `Imagine...Having $2000, $3000`
   },
   {
     tweet_id: 2665,
@@ -10661,7 +10661,7 @@ export default [
   },
   {
     tweet_id: 2666,
-    text: `space on basis of known. Time for each class of service for single switchboards, power equipment, cords In service, wire chief,`
+    text: `space on basis of known. Time for each class of service for'single switchboards, power equipment, cords In service, wire chief`
   },
   {
     tweet_id: 2667,
@@ -10685,7 +10685,7 @@ export default [
   },
   {
     tweet_id: 2672,
-    text: `DAYS or NIGHTS WEEKDAYS OR WEEKENDS We re sure you ve seen`
+    text: `DAYS or NIGHTS WEEKDAYS OR WEEKENDS We re sure you've seen`
   },
   {
     tweet_id: 2673,
@@ -10705,7 +10705,7 @@ export default [
   },
   {
     tweet_id: 2677,
-    text: `cheerleading squad, a shot at starring in the school play and a luxury home in the best neighborhood.`
+    text: `cheerleading squad, a shot at starring in the school play and a luxury home in the best neighborhood`
   },
   {
     tweet_id: 2678,
@@ -10757,7 +10757,7 @@ export default [
   },
   {
     tweet_id: 2690,
-    text: `You About.`
+    text: `You About`
   },
   {
     tweet_id: 2691,
@@ -10813,7 +10813,7 @@ export default [
   },
   {
     tweet_id: 2704,
-    text: `all food Taste Superb.`
+    text: `all food Taste Superb`
   },
   {
     tweet_id: 2705,
@@ -10877,7 +10877,7 @@ export default [
   },
   {
     tweet_id: 2720,
-    text: `Scuba diving is one way to explore this fascinating universe.`
+    text: `Scuba diving is one way to explore this fascinating universe`
   },
   {
     tweet_id: 2721,
@@ -10893,7 +10893,7 @@ export default [
   },
   {
     tweet_id: 2724,
-    text: `My 19 Year Guitar Education Is Yours Risk-Free...`
+    text: `My 19 Year Guitar Education Is Yours Risk-Free..`
   },
   {
     tweet_id: 2725,
@@ -10901,11 +10901,11 @@ export default [
   },
   {
     tweet_id: 2726,
-    text: `These Virtually Immediate Benefits.`
+    text: `These Virtually Immediate Benefits`
   },
   {
     tweet_id: 2727,
-    text: `foreign food, seashells,`
+    text: `foreign food, seashells`
   },
   {
     tweet_id: 2728,
@@ -10933,7 +10933,7 @@ export default [
   },
   {
     tweet_id: 2734,
-    text: `telephone calls, located the items wanted, wrote a letter,`
+    text: `telephone calls, located the items wanted, wrote a letter`
   },
   {
     tweet_id: 2735,
@@ -10949,7 +10949,7 @@ export default [
   },
   {
     tweet_id: 2738,
-    text: `What symptoms to watch out for.`
+    text: `What symptoms to watch out for`
   },
   {
     tweet_id: 2739,
@@ -10973,7 +10973,7 @@ export default [
   },
   {
     tweet_id: 2744,
-    text: `your hobbies,`
+    text: `your hobbies`
   },
   {
     tweet_id: 2745,
@@ -10993,7 +10993,7 @@ export default [
   },
   {
     tweet_id: 2749,
-    text: `Imagine your opponents flailing helplessly as your serves scream by,`
+    text: `Imagine your opponents flailing helplessly as your'serves scream by`
   },
   {
     tweet_id: 2750,
@@ -11093,7 +11093,7 @@ export default [
   },
   {
     tweet_id: 2774,
-    text: `material to prepare for the coda. Transition to Coda System 50 layers systems 45, 44, and a variant of system 33,`
+    text: `material to prepare for the coda. Transition to Coda System 50 layers systems 45, 44, and a variant of system 33`
   },
   {
     tweet_id: 2775,
@@ -11109,15 +11109,15 @@ export default [
   },
   {
     tweet_id: 2778,
-    text: `Learn How To Handle Problems Like A Professional.`
+    text: `Learn How To Handle Problems Like A Professional`
   },
   {
     tweet_id: 2779,
-    text: `three climate factors in growing grapes.`
+    text: `three climate factors in growing grapes`
   },
   {
     tweet_id: 2780,
-    text: `A Complete, Simple, Practical, Easy-to-Understand,`
+    text: `A Complete, Simple, Practical, Easy-to-Understand`
   },
   {
     tweet_id: 2781,
@@ -11197,7 +11197,7 @@ export default [
   },
   {
     tweet_id: 2800,
-    text: `dangers of household garbage.`
+    text: `dangers of household garbage`
   },
   {
     tweet_id: 2801,
@@ -11293,11 +11293,11 @@ export default [
   },
   {
     tweet_id: 2824,
-    text: `Care For Stunning Roses in 7 Days`
+    text: `Care For'Stunning Roses in 7 Days`
   },
   {
     tweet_id: 2825,
-    text: `REACTION to accidents is also the LEAST CORRECT.`
+    text: `REACTION to accidents is also the LEAST CORRECT`
   },
   {
     tweet_id: 2826,
@@ -11325,7 +11325,7 @@ export default [
   },
   {
     tweet_id: 2832,
-    text: `Hello Milk,`
+    text: `Hello Milk`
   },
   {
     tweet_id: 2833,
@@ -11377,7 +11377,7 @@ export default [
   },
   {
     tweet_id: 2845,
-    text: `Cast.. Cast.. Cast.. Cast.. Wood. Disk.. Wood. Disk.. Cast.. Cast. Cast. Disk. Cast. Cast. Cast. Cast. Cast. Cast. Cast. Cast. Cast. Disk.`
+    text: `Cast.. Cast.. Cast.. Cast.. Wood. Disk.. Wood. Disk.. Cast.. Cast. Cast. Disk. Cast. Cast. Cast. Cast. Cast. Cast. Cast. Cast. Cast. Disk`
   },
   {
     tweet_id: 2846,
@@ -11433,7 +11433,7 @@ export default [
   },
   {
     tweet_id: 2859,
-    text: `properties or mortgages? Mr. LTTMAN. I’m talking about mortgages where the Secretary collects payments from anyone.`
+    text: `properties or mortgages? Mr. LTTMAN. I’m talking about mortgages where the Secretary collects payments from anyone`
   },
   {
     tweet_id: 2860,
@@ -11457,7 +11457,7 @@ export default [
   },
   {
     tweet_id: 2865,
-    text: `Extraordinarily Fast. 27 things to avoid when you learn French.`
+    text: `Extraordinarily Fast. 27 things to avoid when you learn French`
   },
   {
     tweet_id: 2866,
@@ -11477,7 +11477,7 @@ export default [
   },
   {
     tweet_id: 2870,
-    text: `If you ve been looking for a hobby you ve found it. It’s fun and rewarding. How can you not enjoy the`
+    text: `If you've been looking for a hobby you've found it. It’s fun and rewarding. How can you not enjoy the`
   },
   {
     tweet_id: 2871,
@@ -11501,7 +11501,7 @@ export default [
   },
   {
     tweet_id: 2876,
-    text: `WORLD WORLD YOU VE SEEN THEIR FACES, perfectly`
+    text: `WORLD WORLD YOU'VE SEEN THEIR FACES, perfectly`
   },
   {
     tweet_id: 2877,
@@ -11521,11 +11521,11 @@ export default [
   },
   {
     tweet_id: 2881,
-    text: `pig, snowman, snake, two rose methods,`
+    text: `pig, snowman, snake, two rose methods`
   },
   {
     tweet_id: 2882,
-    text: `can can can can can can can can can SINGULAR. You must, may, or have had You must, may, or have heen You must, may, or have ruled You must,`
+    text: `can can can can can can can can can SINGULAR. You must, may, or have had You must, may, or have heen You must, may, or have ruled You must`
   },
   {
     tweet_id: 2883,
@@ -11589,11 +11589,11 @@ export default [
   },
   {
     tweet_id: 2898,
-    text: `is wonderful, at last,`
+    text: `is wonderful, at last`
   },
   {
     tweet_id: 2899,
-    text: `Heavenly Legs.`
+    text: `Heavenly Legs`
   },
   {
     tweet_id: 2900,
@@ -11685,7 +11685,7 @@ export default [
   },
   {
     tweet_id: 2922,
-    text: `the gurus have been hiding from you all this time.`
+    text: `the gurus have been hiding from you all this time`
   },
   {
     tweet_id: 2923,
@@ -11729,7 +11729,7 @@ export default [
   },
   {
     tweet_id: 2933,
-    text: `always cheered him up.`
+    text: `always cheered him up`
   },
   {
     tweet_id: 2934,
@@ -11869,11 +11869,11 @@ export default [
   },
   {
     tweet_id: 2968,
-    text: `SPRING SPRING SPRING SPRING ? ? FALC SPRING SPRING FALL SUMMER SUMMER SUMMER SUMMER FALL ? .`
+    text: `SPRING SPRING SPRING SPRING ? ? FALC SPRING SPRING FALL SUMMER'SUMME' SUMMER'SUMMER FALL ? `
   },
   {
     tweet_id: 2969,
-    text: `The Touch Of A Button.`
+    text: `The Touch Of A Button`
   },
   {
     tweet_id: 2970,
@@ -11917,7 +11917,7 @@ export default [
   },
   {
     tweet_id: 2980,
-    text: `Discover modern methods of looking into your history.`
+    text: `Discover modern methods of looking into your history`
   },
   {
     tweet_id: 2981,
@@ -11945,7 +11945,7 @@ export default [
   },
   {
     tweet_id: 2987,
-    text: `Pyramid tour. City map. English newspaper. Chaise lounge, towels. CITY City of ceremony, pageantry,`
+    text: `Pyramid tour. City map. English newspaper. Chaise lounge, towels. CITY City of ceremony, pageantry`
   },
   {
     tweet_id: 2988,
@@ -12041,7 +12041,7 @@ export default [
   },
   {
     tweet_id: 3011,
-    text: `just to have the noise start simmering again when you start the lesson.`
+    text: `just to have the noise start simmering again when you start the lesson`
   },
   {
     tweet_id: 3012,
@@ -12089,7 +12089,7 @@ export default [
   },
   {
     tweet_id: 3023,
-    text: `15 Ways to Make Your Small Kitchen`
+    text: `15 Ways to Make Your'Small Kitchen`
   },
   {
     tweet_id: 3024,
@@ -12161,11 +12161,11 @@ export default [
   },
   {
     tweet_id: 3041,
-    text: `The Failure to Regulate Hazardous Pet Products,`
+    text: `The Failure to Regulate Hazardous Pet Products`
   },
   {
     tweet_id: 3042,
-    text: `you’ll  soon be playing your own favorite songs on the piano.`
+    text: `you’ll  soon be playing your own favorite songs on the piano`
   },
   {
     tweet_id: 3043,
@@ -12209,7 +12209,7 @@ export default [
   },
   {
     tweet_id: 3053,
-    text: `clouds and fun. bright and hot. fair, rain. overcast. tain. clouds, rain. clouds. clouds. clouds. 2 Gathered hrit strawberries.`
+    text: `clouds and fun. bright and hot. fair, rain. overcast. tain. clouds, rain. clouds. clouds. clouds. 2 Gathered hrit strawberries`
   },
   {
     tweet_id: 3054,
@@ -12241,7 +12241,7 @@ export default [
   },
   {
     tweet_id: 3061,
-    text: `Iron rails Iron rails Iron rails Iron rails Iron rails over stern over stern 14$ feet. over stern over`
+    text: `Iron rails Iron rails Iron rails Iron rails Iron rails over'stern ove' stern 14$ feet. over'stern over`
   },
   {
     tweet_id: 3062,
@@ -12261,7 +12261,7 @@ export default [
   },
   {
     tweet_id: 3066,
-    text: `claims, to be sure.`
+    text: `claims, to be sure`
   },
   {
     tweet_id: 3067,
@@ -12277,7 +12277,7 @@ export default [
   },
   {
     tweet_id: 3070,
-    text: `Tips, resources,`
+    text: `Tips, resources`
   },
   {
     tweet_id: 3071,
@@ -12313,7 +12313,7 @@ export default [
   },
   {
     tweet_id: 3079,
-    text: `The key of enjoyment that gives speed and ability that will freak you out.`
+    text: `The key of enjoyment that gives speed and ability that will freak you out`
   },
   {
     tweet_id: 3080,
@@ -12349,7 +12349,7 @@ export default [
   },
   {
     tweet_id: 3088,
-    text: `is a luxurious way to dine.`
+    text: `is a luxurious way to dine`
   },
   {
     tweet_id: 3089,
@@ -12421,7 +12421,7 @@ export default [
   },
   {
     tweet_id: 3106,
-    text: `spent two months in Parma in 1714.`
+    text: `spent two months in Parma in 1714`
   },
   {
     tweet_id: 3107,
@@ -12449,7 +12449,7 @@ export default [
   },
   {
     tweet_id: 3113,
-    text: `As if that weren’t enough to give you the cool,`
+    text: `As if that weren’t enough to give you the cool`
   },
   {
     tweet_id: 3114,
@@ -12469,7 +12469,7 @@ export default [
   },
   {
     tweet_id: 3118,
-    text: `doing (enjoying the sun on dry land, eating or just sleeping) and run to the water.`
+    text: `doing (enjoying the sun on dry land, eating or just sleeping) and run to the water`
   },
   {
     tweet_id: 3119,
@@ -12505,7 +12505,7 @@ export default [
   },
   {
     tweet_id: 3127,
-    text: `Take up crew,`
+    text: `Take up crew`
   },
   {
     tweet_id: 3128,
@@ -12521,7 +12521,7 @@ export default [
   },
   {
     tweet_id: 3131,
-    text: `SHELLFISHFRESH OR SIMPLY PREPAREDU U U U U U U U U U U U U U 4 052 969 33 871`
+    text: `SHELLFISHFRESH OR'SIMPLY PREPAREDU U U U U U U U U U U U U U 4 052 969 33 871`
   },
   {
     tweet_id: 3132,
@@ -12565,7 +12565,7 @@ export default [
   },
   {
     tweet_id: 3142,
-    text: `You ve Never Planned An Event In Your Life!`
+    text: `You've Never Planned An Event In Your Life!`
   },
   {
     tweet_id: 3143,
@@ -12585,7 +12585,7 @@ export default [
   },
   {
     tweet_id: 3147,
-    text: `display a prop in a play. a party theme Make more than one.`
+    text: `display a prop in a play. a party theme Make more than one`
   },
   {
     tweet_id: 3148,
@@ -12669,7 +12669,7 @@ export default [
   },
   {
     tweet_id: 3168,
-    text: `often during the night are three common symptoms of a dairy or gluten intolerance.`
+    text: `often during the night are three common symptoms of a dairy or gluten intolerance`
   },
   {
     tweet_id: 3169,
@@ -12725,7 +12725,7 @@ export default [
   },
   {
     tweet_id: 3182,
-    text: `much to be deprecated — too common of late, but bad, Mr Dalton, bad— and, after all,`
+    text: `much to be deprecated — too common of late, but bad, Mr Dalton, bad— and, after all`
   },
   {
     tweet_id: 3183,
@@ -12745,7 +12745,7 @@ export default [
   },
   {
     tweet_id: 3187,
-    text: `100 T T T T T T T T T T " NO AIRPLANE TRAFFIC NOISE .`
+    text: `100 T T T T T T T T T T " NO AIRPLANE TRAFFIC NOISE `
   },
   {
     tweet_id: 3188,
@@ -12805,7 +12805,7 @@ export default [
   },
   {
     tweet_id: 3202,
-    text: `Champion, (abandoned) Champion Champion, (lost) Champion. Champion.`
+    text: `Champion, (abandoned) Champion Champion, (lost) Champion. Champion`
   },
   {
     tweet_id: 3203,
@@ -12837,7 +12837,7 @@ export default [
   },
   {
     tweet_id: 3210,
-    text: `The best ways to study for managing your time.`
+    text: `The best ways to study for managing your time`
   },
   {
     tweet_id: 3211,
@@ -12893,7 +12893,7 @@ export default [
   },
   {
     tweet_id: 3224,
-    text: `Telephone Service. TV after 8:30 pm -- Watch over your smaller`
+    text: `Telephone Service. TV after 8:30 pm -- Watch over your'smaller`
   },
   {
     tweet_id: 3225,
@@ -12945,7 +12945,7 @@ export default [
   },
   {
     tweet_id: 3237,
-    text: `When I was a banker I never slept soundly, and there never was a day`
+    text: `When I was a banker I never'slept soundly, and there never was a day`
   },
   {
     tweet_id: 3238,
@@ -12953,7 +12953,7 @@ export default [
   },
   {
     tweet_id: 3239,
-    text: `Sticker Sticker Sticker Sticker Yes No Yes No Yes No Yea Yea Registration Yes Yea & sticker Only one contractor bid Quality control problem`
+    text: `Sticker'Sticker'Sticker'Sticker Yes No Yes No Yes No Yea Yea Registration Yes Yea & sticker Only one contractor bid Quality control problem`
   },
   {
     tweet_id: 3240,
@@ -12977,7 +12977,7 @@ export default [
   },
   {
     tweet_id: 3245,
-    text: `Hours and Hours of Research...`
+    text: `Hours and Hours of Research..`
   },
   {
     tweet_id: 3246,
@@ -13001,7 +13001,7 @@ export default [
   },
   {
     tweet_id: 3251,
-    text: `Prepare yourself for some very`
+    text: `Prepare yourself for'some very`
   },
   {
     tweet_id: 3252,
@@ -13093,7 +13093,7 @@ export default [
   },
   {
     tweet_id: 3274,
-    text: `of the British Embassy in Hanoi. NICOLE: I am Nicole Jannet. I’m French. My family live in Paris.`
+    text: `of the British Embassy in Hanoi. NICOLE: I am Nicole Jannet. I’m French. My family live in Paris`
   },
   {
     tweet_id: 3275,
@@ -13177,7 +13177,7 @@ export default [
   },
   {
     tweet_id: 3295,
-    text: `The goal is to be safe, save money, and to be comfortable.`
+    text: `The goal is to be safe, save money, and to be comfortable`
   },
   {
     tweet_id: 3296,
@@ -13213,11 +13213,11 @@ export default [
   },
   {
     tweet_id: 3304,
-    text: `teeth in the morning.`
+    text: `teeth in the morning`
   },
   {
     tweet_id: 3305,
-    text: `Spend thousands of dollars on clothing and going out on dates.`
+    text: `Spend thousands of dollars on clothing and going out on dates`
   },
   {
     tweet_id: 3306,
@@ -13241,7 +13241,7 @@ export default [
   },
   {
     tweet_id: 3311,
-    text: `I could about nutrition and exercise.`
+    text: `I could about nutrition and exercise`
   },
   {
     tweet_id: 3312,
@@ -13317,7 +13317,7 @@ export default [
   },
   {
     tweet_id: 3330,
-    text: `How Shoplifting Affects You And Your Family.`
+    text: `How Shoplifting Affects You And Your Family`
   },
   {
     tweet_id: 3331,
@@ -13329,11 +13329,11 @@ export default [
   },
   {
     tweet_id: 3333,
-    text: `CONDITION or VEGETABLE AND (CHEATING METHOD PALATABILITY SCORE Cut green beans Swiss chard Broccoli Diced carrots Shredded`
+    text: `CONDITION or VEGETABLE AND CHEATING METHOD PALATABILITY SCORE Cut green beans Swiss chard Broccoli Diced carrots Shredded`
   },
   {
     tweet_id: 3334,
-    text: `again! I love your systems`
+    text: `again! I love your'systems`
   },
   {
     tweet_id: 3335,
@@ -13369,7 +13369,7 @@ export default [
   },
   {
     tweet_id: 3343,
-    text: `Shocked?? You might think your SEO`
+    text: `Shocked?? You might think your'SEO`
   },
   {
     tweet_id: 3344,
@@ -13389,7 +13389,7 @@ export default [
   },
   {
     tweet_id: 3348,
-    text: `Discover how in just 27 minutes you can get an incredible workout with great results that will have everyone asking you, "What`
+    text: `Discover how in just 27 minutes you can get an incredible workout with great results that will have everyone asking you`
   },
   {
     tweet_id: 3349,
@@ -13397,7 +13397,7 @@ export default [
   },
   {
     tweet_id: 3350,
-    text: `Explanation and abbreviations of stitches used.`
+    text: `Explanation and abbreviations of stitches used`
   },
   {
     tweet_id: 3351,
@@ -13433,7 +13433,7 @@ export default [
   },
   {
     tweet_id: 3359,
-    text: `This is when I realized that the Lacrosse Training I was doing was VERY real.`
+    text: `This is when I realized that the Lacrosse Training I was doing was VERY real`
   },
   {
     tweet_id: 3360,
@@ -13453,7 +13453,7 @@ export default [
   },
   {
     tweet_id: 3364,
-    text: `Let’s make something clear: 4 years ago,`
+    text: `Let’s make something clear: 4 years ago`
   },
   {
     tweet_id: 3365,
@@ -13469,7 +13469,7 @@ export default [
   },
   {
     tweet_id: 3368,
-    text: `Piano Offer ! *^EVER before has any piano manufacturer da x^ to make such an offer. The greatest piano ui ever made— rock -bono m prices— no`
+    text: `Piano Offer! EVER before has any piano manufacturer had to make such an offer. The greatest piano ui ever made—rock-botom prices`
   },
   {
     tweet_id: 3369,
@@ -13489,7 +13489,7 @@ export default [
   },
   {
     tweet_id: 3373,
-    text: `I’vE BEEN A GUEST`
+    text: `I’VE BEEN A GUEST`
   },
   {
     tweet_id: 3374,
@@ -13501,7 +13501,7 @@ export default [
   },
   {
     tweet_id: 3376,
-    text: `33 Regulate fire when approaching a stopping place 33 When attached to a train, Conductors to have charge 33 Not`
+    text: `Regulate fire when approaching a stopping place. When attached to a train, Conductors to have charge`
   },
   {
     tweet_id: 3377,
@@ -13513,7 +13513,7 @@ export default [
   },
   {
     tweet_id: 3379,
-    text: `flowers to paint,`
+    text: `flowers to paint`
   },
   {
     tweet_id: 3380,
@@ -13533,7 +13533,7 @@ export default [
   },
   {
     tweet_id: 3384,
-    text: `(This is also used by singing`
+    text: `This is also used by singing`
   },
   {
     tweet_id: 3385,
@@ -13553,7 +13553,7 @@ export default [
   },
   {
     tweet_id: 3389,
-    text: `the mountains to establish his expertise.`
+    text: `the mountains to establish his expertise`
   },
   {
     tweet_id: 3390,
@@ -13569,7 +13569,7 @@ export default [
   },
   {
     tweet_id: 3393,
-    text: `Multi-million dollar trader slams`
+    text: `Multi-million dollar trader'slams`
   },
   {
     tweet_id: 3394,
@@ -13581,7 +13581,7 @@ export default [
   },
   {
     tweet_id: 3396,
-    text: `Will Come Across As A SHOCK To You...`
+    text: `Will Come Across As A SHOCK To You..`
   },
   {
     tweet_id: 3397,
@@ -13589,7 +13589,7 @@ export default [
   },
   {
     tweet_id: 3398,
-    text: `6 (a) Climb of an edge dislocation: either the atom A diffuses to an interstitial position such as C, or a`
+    text: `Climb of an edge dislocation: either the atom A diffuses to an interstitial position such as C`
   },
   {
     tweet_id: 3399,
@@ -13597,7 +13597,7 @@ export default [
   },
   {
     tweet_id: 3400,
-    text: `There is no better business.`
+    text: `There is no better business`
   },
   {
     tweet_id: 3401,
@@ -13613,7 +13613,7 @@ export default [
   },
   {
     tweet_id: 3404,
-    text: `for Nicole. Nobody wins. "The victor belongs`
+    text: `for Nicole. Nobody wins. The victor belongs`
   },
   {
     tweet_id: 3405,
@@ -13681,7 +13681,7 @@ export default [
   },
   {
     tweet_id: 3421,
-    text: `years studying the elements of distance.`
+    text: `years studying the elements of distance`
   },
   {
     tweet_id: 3422,
@@ -13721,15 +13721,15 @@ export default [
   },
   {
     tweet_id: 3431,
-    text: `My Bodybuilding Mentor Showed Me The Jealously Guarded Secrets Of Getting Massive`
+    text: `My Bodybuilding Mentor'Showed Me The Jealously Guarded Secrets Of Getting Massive`
   },
   {
     tweet_id: 3432,
-    text: `food item (found on`
+    text: `food items found on`
   },
   {
     tweet_id: 3433,
-    text: `, Friends, And Girls Will Know You As "The Awesome DJ"`
+    text: `Friends, And Girls Will Know You As "The Awesome DJ"`
   },
   {
     tweet_id: 3434,
@@ -13753,11 +13753,11 @@ export default [
   },
   {
     tweet_id: 3439,
-    text: `Well, those verbs won’t be giving you any trouble for much longer.`
+    text: `Well, those verbs won’t be giving you any trouble for much longer`
   },
   {
     tweet_id: 3440,
-    text: `Learn new stock market trends.`
+    text: `Learn new stock market trends`
   },
   {
     tweet_id: 3441,
@@ -13769,7 +13769,7 @@ export default [
   },
   {
     tweet_id: 3443,
-    text: `n D n n n n D D n n n n n n n n n n n n n D D D D n n n D n n n n n a n n n I hereby state that, to`
+    text: `I hereby state that`
   },
   {
     tweet_id: 3444,
@@ -13849,7 +13849,7 @@ export default [
   },
   {
     tweet_id: 3463,
-    text: `No marriage crisis appears overnight.`
+    text: `No marriage crisis appears overnight`
   },
   {
     tweet_id: 3464,
@@ -13881,7 +13881,7 @@ export default [
   },
   {
     tweet_id: 3471,
-    text: `Imagine your richest thoughts flowing magically from your brain,`
+    text: `Imagine your richest thoughts flowing magically from your brain`
   },
   {
     tweet_id: 3472,
@@ -13893,7 +13893,7 @@ export default [
   },
   {
     tweet_id: 3474,
-    text: `That’s how we get results. That’s intensity. Higher intensity, faster results. Same Example,`
+    text: `That’s how we get results. That’s intensity. Higher intensity, faster results. Same Example`
   },
   {
     tweet_id: 3475,
@@ -13913,11 +13913,11 @@ export default [
   },
   {
     tweet_id: 3479,
-    text: `emissions of a modern passenger car.`
+    text: `emissions of a modern passenger car`
   },
   {
     tweet_id: 3480,
-    text: `Customer Service Step by Step`
+    text: `Customer'Service Step by Step`
   },
   {
     tweet_id: 3481,
@@ -13925,7 +13925,7 @@ export default [
   },
   {
     tweet_id: 3482,
-    text: `solution is on pages 33-34.`
+    text: `solution is on pages 33-34`
   },
   {
     tweet_id: 3483,
@@ -13949,11 +13949,11 @@ export default [
   },
   {
     tweet_id: 3488,
-    text: `will work very EASILY for ANY man on this planet,`
+    text: `will work very EASILY for ANY man on this planet`
   },
   {
     tweet_id: 3489,
-    text: `SURE,`
+    text: `SURE`
   },
   {
     tweet_id: 3490,
@@ -13989,7 +13989,7 @@ export default [
   },
   {
     tweet_id: 3498,
-    text: `and subordinate to it, being equivalent to the jjjjjj,   the energetic operations of`
+    text: `and subordinate to it, being equivalent to the superior, the energetic operations of`
   },
   {
     tweet_id: 3499,
@@ -14025,7 +14025,7 @@ export default [
   },
   {
     tweet_id: 3507,
-    text: `drinking water in any emergency,`
+    text: `drinking water in any emergency`
   },
   {
     tweet_id: 3508,
@@ -14061,7 +14061,7 @@ export default [
   },
   {
     tweet_id: 3516,
-    text: `socks, couches,`
+    text: `socks, couches`
   },
   {
     tweet_id: 3517,
@@ -14069,7 +14069,7 @@ export default [
   },
   {
     tweet_id: 3518,
-    text: `UNLEASH YOUR INNER MONEY ANIMAL RIGHT HERE,`
+    text: `UNLEASH YOUR INNER MONEY ANIMAL RIGHT HERE`
   },
   {
     tweet_id: 3519,
@@ -14093,7 +14093,7 @@ export default [
   },
   {
     tweet_id: 3524,
-    text: `Don’t even think about naming a baby until you ve heard`
+    text: `Don’t even think about naming a baby until you've heard`
   },
   {
     tweet_id: 3525,
@@ -14101,7 +14101,7 @@ export default [
   },
   {
     tweet_id: 3526,
-    text: `and after spending literally`
+    text: `and after'spending literally`
   },
   {
     tweet_id: 3527,
@@ -14129,7 +14129,7 @@ export default [
   },
   {
     tweet_id: 3533,
-    text: `IRON OR STEEL, EMPTY SHIPPING, NONFERROUS`
+    text: `IRON OR'STEEL, EMPTY SHIPPING, NONFERROUS`
   },
   {
     tweet_id: 3534,
@@ -14203,4 +14203,4 @@ export default [
     tweet_id: 3551,
     text: `You will see some statistics`
   }
-];
+]

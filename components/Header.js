@@ -1,4 +1,3 @@
-import React from 'react'
 /** @jsxFrag React.Fragment */
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'

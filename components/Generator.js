@@ -1,4 +1,3 @@
-import React from 'react'
 /** @jsxFrag React.Fragment */
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
@@ -12,7 +11,7 @@ import Button from '../components/Button'
 import Toast from '../components/Toast'
 
 export default function Generator() {
-  const [poem, setPoem] = React.useState([data[0]])
+  const [poem, setPoem] = React.useState([data[295]])
   const [count, setCount] = React.useState(1)
   const [clicks, setClicks] = React.useState(0)
   const [isError, setIsError] = React.useState(false)
@@ -87,16 +86,14 @@ export default function Generator() {
     setIsSharing(true)
     try {
       const res = await fetch('/api/save', {
-        headers: {
-          'Content-Type': 'application/json'
-        },
+        headers: { 'Content-Type': 'application/json' },
         method: 'POST',
         body: JSON.stringify(userData)
       })
       var data = await res.json()
       setIsSharing(false)
       setIsShared(true)
-      setShareUrl(`${window.origin}/share?q=${data.id}`)
+      setShareUrl(`${window.origin}/share?q=${data.uid}`)
     } catch (err) {
       setIsError(true)
       console.log('Saving poem error — ', err)
@@ -112,12 +109,7 @@ export default function Generator() {
             justify-content: space-between;
             margin-bottom: var(--md);
           `}>
-          <Button
-            handleClick={replace}
-            alt="shuffle"
-            emoji="🔀 "
-            text="Swap Last Line"
-          />
+          <Button handleClick={replace} text="Swap Last" />
           <div>
             <Button
               handleClick={remove}
@@ -195,7 +187,7 @@ export default function Generator() {
           )}
           {showToast && (
             <Toast
-              text="Your poem has been saved and the URL copied to your clipboard."
+              text="Poem's URL has been copied to the clipboard."
               dismiss
               handleDismiss={handleToast}
             />
@@ -203,13 +195,13 @@ export default function Generator() {
         </section>
       )}
       <Tweet>
-        <Button
-          handleClick={share}
-          disabled={count < 2 || isSharing || isShared}
-          alt={isShared ? 'checkmark' : 'chainlink'}
-          emoji={isShared ? '✔️ ' : '🔗 '}
-          text={isSharing ? 'Sharing...' : isShared ? 'Shared' : 'Share'}
-        />
+        {!isShared && (
+          <Button
+            handleClick={share}
+            disabled={count < 2 || isSharing}
+            text={isSharing ? '∆·∇·∆' : 'Share'}
+          />
+        )}
       </Tweet>
       <Poem poem={poem} />
     </>
