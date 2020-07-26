@@ -289,16 +289,11 @@ describe('POST /api/save good data', () => {
       var res = await request(server).post('/api/save').send(data)
       expect(res.type).toMatch(/json/i)
     })
-    it('returns saved poem', async () => {
-      var res = await request(server).post('/api/save').send(data)
-      expect(res.body.clicks).toBe(data.clicks)
-      expect(res.body.poem).toEqual(data.poem)
-    })
-    it('returns saved poem id', async () => {
+    it('returns saved poem uid', async () => {
       const res = await request(server).post('/api/save').send(data)
       expect(res.body).toEqual(
         expect.objectContaining({
-          id: expect.any(String)
+          uid: expect.any(String)
         })
       )
     })
