@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid'
 import db from './db'
 
 export default async function save(req, res) {
@@ -27,13 +28,16 @@ export default async function save(req, res) {
   // let's save it
   try {
     // save poem to db, returns id
+    var uid = nanoid(12)
     var {
       inserted: [id]
-    } = await db.add({ poem, clicks })
-    // retrieve poem from db by ^^above id, send to client
+    } = await db.add({
+      uid,
+      poem,
+      clicks
+    })
     if (id) {
-      var [userPoem] = await db.match({ id })
-      res.json(userPoem)
+      res.json({ uid })
     } else {
       res.status(500).json({ error: 'Server error' })
     }
