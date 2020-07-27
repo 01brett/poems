@@ -50,6 +50,7 @@ h2 {
 }
 
 a {
+  display: inline-block;
   line-height: 2.4;
 }
 

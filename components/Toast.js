@@ -43,6 +43,7 @@ export default function Toast(props) {
 
             &:hover {
               cursor: pointer;
+              background-color: rgba(0, 0, 0, 0.35);
             }
             &:focus {
               box-shadow: 0 0 0 var(--xs) var(--black);
