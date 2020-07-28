@@ -1,7 +1,6 @@
 import db from '../api/db'
 
 import Head from '../../components/HTMLHead'
-import Header from '../../components/Header'
 import Shared from '../../components/Shared'
 
 export default function Share({ data }) {
@@ -16,12 +15,9 @@ export default function Share({ data }) {
     }, '')
 
   return (
-    <>
-      <Head firstLine={firstLine} fullPoem={fullPoem} />
-      <Header>
-        <Shared data={data} />
-      </Header>
-    </>
+    <Head firstLine={firstLine} fullPoem={fullPoem}>
+      <Shared data={data} />
+    </Head>
   )
 }
 

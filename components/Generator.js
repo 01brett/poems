@@ -1,7 +1,3 @@
-/** @jsxFrag React.Fragment */
-/** @jsx jsx */
-import { css, jsx } from '@emotion/core'
-
 import clip from '../utils/clip'
 import data from '../utils/tweets'
 
@@ -103,12 +99,7 @@ export default function Generator() {
   return (
     <>
       {!isShared ? (
-        <section
-          css={css`
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: var(--md);
-          `}>
+        <section>
           <Button handleClick={replace} text="Swap Bottom" />
           <div>
             <Button
@@ -129,11 +120,7 @@ export default function Generator() {
           </div>
         </section>
       ) : (
-        <section
-          css={css`
-            position: relative;
-            margin-bottom: var(--md);
-          `}>
+        <section>
           <Button
             customCSS={'margin-bottom: var(--md);'}
             handleClick={reset}
@@ -141,35 +128,13 @@ export default function Generator() {
             emoji="💣 "
             text="Make Another"
           />
-          <h2
-            css={css`
-              font-size: 1.25rem;
-              font-weight: 900;
-              text-transform: uppercase;
-              margin-bottom: 0.5rem;
-            `}>
-            Your Poem's URL
-          </h2>
-          <div
-            css={css`
-              display: flex;
-              margin-bottom: var(--sm);
-            `}>
+          <label htmlFor="share-url">Your Poem's URL</label>
+          <div className="saved-box">
             <input
               type="text"
               id="share-url"
               onChange={setShareUrl}
               value={shareUrl}
-              css={css`
-                width: 100%;
-                height: 4rem;
-                padding: 0 var(--sm);
-                font-size: var(--md);
-                outline: none;
-                border: none;
-                background-color: var(--grey-bg);
-                border-radius: var(--xs);
-              `}
             />
             <Button
               customCSS={'margin-left: var(--sm);'}
@@ -187,7 +152,7 @@ export default function Generator() {
           )}
           {showToast && (
             <Toast
-              text="Poem's URL has been copied to the clipboard."
+              text="URL copied to the clipboard."
               dismiss
               handleDismiss={handleToast}
             />
@@ -204,6 +169,39 @@ export default function Generator() {
         )}
       </Tweet>
       <Poem poem={poem} />
+      <style jsx>{`
+        label {
+          display: block;
+          font-size: 1.25rem;
+          font-weight: 900;
+          text-transform: uppercase;
+          margin-bottom: 0.5rem;
+        }
+
+        .saved-box {
+          display: flex;
+          margin-bottom: var(--sm);
+        }
+
+        input[type='text'] {
+          width: 100%;
+          height: 4rem;
+          padding: 0 var(--sm);
+          font-size: var(--md);
+          outline: none;
+          border: none;
+          background-color: var(--grey-bg);
+          border-radius: var(--xs);
+        }
+      `}</style>
+      <style jsx>{`
+        section {
+          margin-bottom: var(--md);
+          ${!isShared
+            ? 'display: flex; justify-content: space-between;'
+            : 'position: relative;'}
+        }
+      `}</style>
     </>
   )
 }
