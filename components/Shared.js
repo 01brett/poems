@@ -25,8 +25,8 @@ export default function Shared({ data }) {
       <Tweet />
       <Poem poem={data.poem} />
       <p className="clicks">
-        This poem was constructed in {data.clicks}{' '}
-        {data.clicks > 1 ? 'clicks' : 'click'}.
+        Poem constructed in {data.clicks} {data.clicks > 1 ? 'clicks' : 'click'}
+        .
       </p>
       <Link href="/">
         <a>
@@ -39,8 +39,7 @@ export default function Shared({ data }) {
       <style jsx>{`
         .clicks {
           color: var(--grey2);
-          padding-top: var(--sm);
-          margin-bottom: var(--lg);
+          margin-bottom: var(--md);
         }
       `}</style>
     </>

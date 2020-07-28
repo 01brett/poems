@@ -1,10 +1,14 @@
 export default function Poem({ poem }) {
   return (
-    <>
+    <div>
       {poem.map((el, idx) => (
         <p key={el.tweet_id + idx}>{el.text}</p>
       ))}
       <style jsx>{`
+        div {
+          margin-bottom: var(--md);
+        }
+
         p {
           font-family: var(--serif);
           font-size: var(--lg);
@@ -12,6 +16,6 @@ export default function Poem({ poem }) {
           margin-bottom: var(--sm);
         }
       `}</style>
-    </>
+    </div>
   )
 }

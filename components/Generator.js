@@ -4,19 +4,24 @@ import data from '../utils/tweets'
 import Tweet from '../components/Tweet'
 import Poem from '../components/Poem'
 import Button from '../components/Button'
-import Toast from '../components/Toast'
+// import Toast from '../components/Toast'
+import Message from '../components/Message'
 
 export default function Generator() {
-  const [poem, setPoem] = React.useState([data[295]])
-  const [count, setCount] = React.useState(1)
-  const [clicks, setClicks] = React.useState(0)
-  const [isError, setIsError] = React.useState(false)
-  const [showToast, setShowToast] = React.useState(false)
-  const [isSharing, setIsSharing] = React.useState(false)
-  const [isShared, setIsShared] = React.useState(false)
-  const [shareUrl, setShareUrl] = React.useState('')
+  var [error, setError] = React.useState({
+    status: false,
+    text: ''
+  })
+  var [poem, setPoem] = React.useState([data[295]])
+  var [count, setCount] = React.useState(1)
+  var [clicks, setClicks] = React.useState(0)
 
-  const add = () => {
+  var [copied, setCopied] = React.useState(false)
+  var [isSharing, setIsSharing] = React.useState(false)
+  var [isShared, setIsShared] = React.useState(false)
+  var [shareUrl, setShareUrl] = React.useState('')
+
+  function add() {
     const rand = data[Math.floor(Math.random() * data.length)]
     if (!poem.includes(rand)) {
       setPoem([...poem, rand])
@@ -29,7 +34,7 @@ export default function Generator() {
     setClicks(prev => prev + 1)
   }
 
-  const remove = () => {
+  function remove() {
     const poemArr = [...poem]
     poemArr.pop()
     setPoem(poemArr)
@@ -37,7 +42,7 @@ export default function Generator() {
     setClicks(prev => prev + 1)
   }
 
-  const replace = () => {
+  function replace() {
     const randTweet = data[Math.floor(Math.random() * data.length)]
     const poemArr = [...poem]
     poemArr[poemArr.length - 1] = randTweet
@@ -45,36 +50,31 @@ export default function Generator() {
     setClicks(prev => prev + 1)
   }
 
-  const handleError = () => {
-    setIsError(false)
-    setIsShared(false)
-  }
-
-  const handleToast = () => {
-    setShowToast(false)
-  }
-
-  const copyUrl = async () => {
+  async function copyUrl() {
     try {
       const input = document.querySelector('#share-url')
       await clip(input.value)
-      setShowToast(true)
-    } catch (error) {
+      setCopied(true)
+      return setTimeout(() => {
+        setCopied(false)
+      }, 3000)
+    } catch (err) {
       console.log('Copying url error – ', error)
+      setError({ status: false, text: err })
+      setCopied(false)
     }
   }
 
-  const reset = () => {
+  function reset() {
     setPoem([data[Math.floor(Math.random() * data.length)]])
     setCount(1)
     setClicks(0)
-    setIsError(false)
-    setShowToast(false)
+    setError({ status: false, text: '' })
     setIsShared(false)
     setShareUrl('')
   }
 
-  const share = async () => {
+  async function share() {
     const userData = {
       poem,
       clicks
@@ -87,39 +87,20 @@ export default function Generator() {
         body: JSON.stringify(userData)
       })
       var data = await res.json()
+      setError({ status: false, text: '' })
       setIsSharing(false)
       setIsShared(true)
       setShareUrl(`${window.origin}/${data.uid}`)
     } catch (err) {
-      setIsError(true)
       console.log('Saving poem error — ', err)
+      setError({ status: true, text: err })
     }
   }
 
   return (
     <>
-      {!isShared ? (
-        <section>
-          <Button handleClick={replace} text="Swap Last Line" />
-          <div>
-            <Button
-              handleClick={remove}
-              disabled={count <= 1}
-              alt="minus"
-              emoji="➖"
-              text="Line"
-            />
-            <Button
-              customCSS={'margin-left: 0.65rem;'}
-              handleClick={add}
-              disabled={count >= 5}
-              alt="plus"
-              emoji="➕"
-              text="Line"
-            />
-          </div>
-        </section>
-      ) : (
+      {error.status && <Message text={error.text} error />}
+      {isShared && (
         <section>
           <Button
             customCSS={'margin-bottom: var(--md);'}
@@ -139,26 +120,13 @@ export default function Generator() {
             <Button
               customCSS={'margin-left: var(--sm);'}
               handleClick={copyUrl}
-              text="Copy"
+              text={copied ? 'Copied!' : 'Copy'}
+              disabled={copied}
             />
           </div>
-          {isError && (
-            <Toast
-              text="There was a problem saving your poem to the database."
-              error
-              dismiss
-              handleDismiss={handleError}
-            />
-          )}
-          {showToast && (
-            <Toast
-              text="URL copied to the clipboard."
-              dismiss
-              handleDismiss={handleToast}
-            />
-          )}
         </section>
       )}
+
       <Tweet>
         {!isShared && (
           <Button
@@ -169,7 +137,51 @@ export default function Generator() {
         )}
       </Tweet>
       <Poem poem={poem} />
+      {!isShared && (
+        <div className="controls">
+          <Button
+            handleClick={replace}
+            // alt="shuffle"
+            // emoji="🔀 "
+            text="Swap Last Line"
+          />
+          <div className="line-controls">
+            <Button
+              handleClick={remove}
+              disabled={count <= 1}
+              alt="minus"
+              emoji="➖"
+              text="Line"
+            />
+            <Button
+              customCSS={'margin-left: 1rem;'}
+              handleClick={add}
+              disabled={count >= 5}
+              alt="plus"
+              emoji="➕"
+              text="Line"
+            />
+          </div>
+        </div>
+      )}
       <style jsx>{`
+        .controls {
+          position: sticky;
+          width: 100%;
+          bottom: 4rem;
+          z-index: 2;
+
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: var(--sm);
+          transition: all 0.3s;
+        }
+
+        section {
+          position: relative;
+          margin-bottom: var(--md);
+        }
+
         label {
           display: block;
           font-size: 1.25rem;
@@ -192,14 +204,6 @@ export default function Generator() {
           border: none;
           background-color: var(--grey-bg);
           border-radius: var(--xs);
-        }
-      `}</style>
-      <style jsx>{`
-        section {
-          margin-bottom: var(--md);
-          ${!isShared
-            ? 'display: flex; justify-content: space-between;'
-            : 'position: relative;'}
         }
       `}</style>
     </>

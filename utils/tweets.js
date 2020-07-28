@@ -3561,7 +3561,7 @@ export default [
   },
   {
     tweet_id: 891,
-    text: `you d get results like`
+    text: `you'd get results like`
   },
   {
     tweet_id: 892,

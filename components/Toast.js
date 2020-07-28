@@ -20,6 +20,7 @@ export default function Toast(props) {
           box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2),
             0 2px 4px -1px rgba(0, 0, 0, 0.12);
           border-radius: var(--xs);
+          z-index: 2;
           transition: all 0.3s;
         }
 
@@ -52,6 +53,7 @@ export default function Toast(props) {
           background-color: rgba(0, 0, 0, 0.5);
         }
       `}</style>
+      <style jsx>{``}</style>
     </div>
   )
 }
