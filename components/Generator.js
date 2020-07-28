@@ -100,7 +100,7 @@ export default function Generator() {
     <>
       {!isShared ? (
         <section>
-          <Button handleClick={replace} text="Swap Bottom" />
+          <Button handleClick={replace} text="Swap Last Line" />
           <div>
             <Button
               handleClick={remove}

@@ -95,7 +95,7 @@ export default function Header(props) {
           font-family: var(--sans);
           font-size: var(--md);
           height: calc(var(--lg) * 2);
-          padding: 0 calc(var(--md) / 1.25);
+          padding: 0 var(--sm);
           color: var(--black);
           text-align: center;
           background-color: #fafbfc;
