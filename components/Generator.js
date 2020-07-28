@@ -89,7 +89,7 @@ export default function Generator() {
       var data = await res.json()
       setIsSharing(false)
       setIsShared(true)
-      setShareUrl(`${window.origin}/share?q=${data.uid}`)
+      setShareUrl(`${window.origin}/s/${data.uid}`)
     } catch (err) {
       setIsError(true)
       console.log('Saving poem error — ', err)
