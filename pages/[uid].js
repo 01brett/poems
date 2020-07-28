@@ -21,8 +21,8 @@ export default function Share({ data }) {
   )
 }
 
-export async function getServerSideProps({ query }) {
-  var { uid } = query
+export async function getServerSideProps(ctx) {
+  var { uid } = ctx.params
   var [data] = await db.match({ uid })
   return {
     props: { data: data ? data : null }

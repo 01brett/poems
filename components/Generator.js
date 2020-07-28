@@ -141,9 +141,9 @@ export default function Generator() {
         <div className="controls">
           <Button
             handleClick={replace}
-            // alt="shuffle"
-            // emoji="🔀 "
-            text="Swap Last Line"
+            alt="shuffle"
+            emoji="🔀 "
+            text="Swap Line"
           />
           <div className="line-controls">
             <Button

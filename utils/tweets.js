@@ -8449,7 +8449,7 @@ export default [
   },
   {
     tweet_id: 2113,
-    text: `city of fresh city of fresh city of fresh wwwwwatatatatatererererer,especially , especially , especially , especially , especially`
+    text: `city of fresh city of fresh city of fresh wwwwwatatatatatererererer, especially,`
   },
   {
     tweet_id: 2114,
@@ -8473,7 +8473,7 @@ export default [
   },
   {
     tweet_id: 2119,
-    text: `1 1 Mainstream rock stations and 74`
+    text: `Mainstream rock stations and 74`
   },
   {
     tweet_id: 2120,
@@ -11629,7 +11629,7 @@ export default [
   },
   {
     tweet_id: 2908,
-    text: `EARLY TRIASSIC MAGNETOSTRATIGRAPHY T: Tirolites M: Meekoceras POLARITY: UNSAMPLED /POOR DATA wwww HIATUS wwwwwww NM Late Tr wwwwwww E . T r`
+    text: `POLARITY: UNSAMPLED / POOR DATA`
   },
   {
     tweet_id: 2909,
