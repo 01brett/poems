@@ -1,7 +1,7 @@
-import db from '../api/db'
+import db from './api/db'
 
-import Head from '../../components/HTMLHead'
-import Shared from '../../components/Shared'
+import Head from '../components/HTMLHead'
+import Shared from '../components/Shared'
 
 export default function Share({ data }) {
   var firstLine = data && data.poem[0].text
