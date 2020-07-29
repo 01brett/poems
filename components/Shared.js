@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
-import Tweet from '../components/Tweet'
-import Poem from '../components/Poem'
-import Message from '../components/Message'
+import Tweet from './Tweet'
+import Poem from './Poem'
+import Message from './Message'
 
 export default function Shared({ data }) {
   if (!data) {

@@ -1,11 +1,10 @@
 import clip from '../utils/clip'
 import data from '../utils/tweets'
 
-import Tweet from '../components/Tweet'
-import Poem from '../components/Poem'
-import Button from '../components/Button'
-// import Toast from '../components/Toast'
-import Message from '../components/Message'
+import Tweet from './Tweet'
+import Poem from './Poem'
+import Button from './Button'
+import Message from './Message'
 
 export default function Generator() {
   var [error, setError] = React.useState({

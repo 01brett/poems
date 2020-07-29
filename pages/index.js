@@ -1,10 +1,10 @@
-import Head from '../components/HTMLHead'
+import Topper from '../components/Topper'
 import Generator from '../components/Generator'
 
 export default function Home() {
   return (
-    <Head>
+    <Topper>
       <Generator />
-    </Head>
+    </Topper>
   )
 }
