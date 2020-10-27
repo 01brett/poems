@@ -9,15 +9,15 @@
     "test": "jest --watch --verbose --detectOpenHandles"
   },
   "dependencies": {
-    "@unbounded/unbounded": "^1.0.0",
-    "nanoid": "^3.1.11",
+    "@unbounded/unbounded": "^1.0.1",
+    "nanoid": "^3.1.16",
     "next": "10.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "jest": "^26.1.0",
-    "supertest": "^4.0.2"
+    "jest": "^26.6.1",
+    "supertest": "^5.0.0"
   },
   "jest": {
     "testEnvironment": "node"

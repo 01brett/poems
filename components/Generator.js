@@ -1,3 +1,4 @@
+import React from 'react'
 import clip from '../utils/clip'
 import data from '../utils/tweets'
 
@@ -24,21 +25,21 @@ export default function Generator() {
     const rand = data[Math.floor(Math.random() * data.length)]
     if (!poem.includes(rand)) {
       setPoem([...poem, rand])
-      setCount(prevCount => prevCount + 1)
+      setCount((prevCount) => prevCount + 1)
     } else {
       const altRand = data[Math.floor(Math.random() * data.length)]
       setPoem([...poem, altRand])
-      setCount(prevCount => prevCount + 1)
+      setCount((prevCount) => prevCount + 1)
     }
-    setClicks(prev => prev + 1)
+    setClicks((prev) => prev + 1)
   }
 
   function remove() {
     const poemArr = [...poem]
     poemArr.pop()
     setPoem(poemArr)
-    setCount(prevCount => prevCount - 1)
-    setClicks(prev => prev + 1)
+    setCount((prevCount) => prevCount - 1)
+    setClicks((prev) => prev + 1)
   }
 
   function replace() {
@@ -46,7 +47,7 @@ export default function Generator() {
     const poemArr = [...poem]
     poemArr[poemArr.length - 1] = randTweet
     setPoem(poemArr)
-    setClicks(prev => prev + 1)
+    setClicks((prev) => prev + 1)
   }
 
   async function copyUrl() {
