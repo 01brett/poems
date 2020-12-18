@@ -27,3 +27,5 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+This app enables (somewhat) randomized poem generation from the tweets of defunct Twitter spam-bot @horse_ebooks. The front-end is built with React and styled using Emotion.js (CSS-in-JS). The backend is built on Next.js to handle routing, server-side rendering, and perform serverless functions. User-generated poems can be saved and later retrieved (when sharing the poem’s unique link) from a NoSQL database. The app is deployed on Vercel.
