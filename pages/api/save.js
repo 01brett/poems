@@ -1,4 +1,3 @@
-import { nanoid } from "nanoid"
 import { db } from "util/firebase-admin"
 
 export default async function save(req, res) {
@@ -25,19 +24,14 @@ export default async function save(req, res) {
       return res.status(400).json({ error: "Incorrect data" })
     }
   }
-  // let's save it
+
   try {
-    // save poem to db, returns id
-    var uid = nanoid(12)
-    var {
-      inserted: [id]
-    } = await db.add({
-      uid,
+    const { id } = await db.collection("poems").add({
       poem,
       clicks
     })
     if (id) {
-      res.json({ uid })
+      res.json({ id })
     } else {
       res.status(500).json({ error: "Server error" })
     }

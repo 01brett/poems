@@ -86,11 +86,11 @@ export default function Generator() {
         method: "POST",
         body: JSON.stringify(userData)
       })
-      var data = await res.json()
+      var { id } = await res.json()
       setError({ status: false, text: "" })
       setIsSharing(false)
       setIsShared(true)
-      setShareUrl(`${window.origin}/${data.uid}`)
+      setShareUrl(`${window.origin}/${id}`)
     } catch (err) {
       console.log("Saving poem error — ", err)
       setError({ status: true, text: err })

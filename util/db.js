@@ -1,7 +1,7 @@
 import { db } from "util/firebase-admin"
 
-export const getPoemData = async (uid) => {
-  const docRef = db.collection("poems").doc(uid)
+export const getPoemData = async (id) => {
+  const docRef = db.collection("poems").doc(id)
   const doc = await docRef.get()
 
   if (!doc.exists) {

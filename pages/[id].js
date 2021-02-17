@@ -22,8 +22,8 @@ export default function Share({ data }) {
 }
 
 export async function getServerSideProps({ params }) {
-  const { uid } = params
-  const data = await getPoemData(uid)
+  const { id } = params
+  const data = await getPoemData(id)
 
   if (data) {
     return {
