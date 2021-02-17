@@ -1,16 +1,16 @@
-import * as React from 'react'
-import clip from '../utils/clip'
-import data from '../utils/tweets'
+import * as React from "react"
+import clip from "../util/clip"
+import data from "../util/tweets"
 
-import Tweet from './Tweet'
-import Poem from './Poem'
-import Button from './Button'
-import Message from './Message'
+import Tweet from "./Tweet"
+import Poem from "./Poem"
+import Button from "./Button"
+import Message from "./Message"
 
 export default function Generator() {
   var [error, setError] = React.useState({
     status: false,
-    text: ''
+    text: ""
   })
   var [poem, setPoem] = React.useState([data[295]])
   var [count, setCount] = React.useState(1)
@@ -19,7 +19,7 @@ export default function Generator() {
   var [copied, setCopied] = React.useState(false)
   var [isSharing, setIsSharing] = React.useState(false)
   var [isShared, setIsShared] = React.useState(false)
-  var [shareUrl, setShareUrl] = React.useState('')
+  var [shareUrl, setShareUrl] = React.useState("")
 
   function add() {
     const rand = data[Math.floor(Math.random() * data.length)]
@@ -52,14 +52,14 @@ export default function Generator() {
 
   async function copyUrl() {
     try {
-      const input = document.querySelector('#share-url')
+      const input = document.querySelector("#share-url")
       await clip(input.value)
       setCopied(true)
       return setTimeout(() => {
         setCopied(false)
       }, 3000)
     } catch (err) {
-      console.log('Copying url error – ', error)
+      console.log("Copying url error – ", error)
       setError({ status: false, text: err })
       setCopied(false)
     }
@@ -69,9 +69,9 @@ export default function Generator() {
     setPoem([data[Math.floor(Math.random() * data.length)]])
     setCount(1)
     setClicks(0)
-    setError({ status: false, text: '' })
+    setError({ status: false, text: "" })
     setIsShared(false)
-    setShareUrl('')
+    setShareUrl("")
   }
 
   async function share() {
@@ -81,18 +81,18 @@ export default function Generator() {
     }
     setIsSharing(true)
     try {
-      const res = await fetch('/api/save', {
-        headers: { 'Content-Type': 'application/json' },
-        method: 'POST',
+      const res = await fetch("/api/save", {
+        headers: { "Content-Type": "application/json" },
+        method: "POST",
         body: JSON.stringify(userData)
       })
       var data = await res.json()
-      setError({ status: false, text: '' })
+      setError({ status: false, text: "" })
       setIsSharing(false)
       setIsShared(true)
       setShareUrl(`${window.origin}/${data.uid}`)
     } catch (err) {
-      console.log('Saving poem error — ', err)
+      console.log("Saving poem error — ", err)
       setError({ status: true, text: err })
     }
   }
@@ -103,7 +103,7 @@ export default function Generator() {
       {isShared && (
         <section>
           <Button
-            customCSS={'margin-bottom: var(--md);'}
+            customCSS={"margin-bottom: var(--md);"}
             handleClick={reset}
             alt="bomb"
             emoji="💣 "
@@ -111,16 +111,11 @@ export default function Generator() {
           />
           <label htmlFor="share-url">Your Poem's URL</label>
           <div className="saved-box">
-            <input
-              type="text"
-              id="share-url"
-              onChange={setShareUrl}
-              value={shareUrl}
-            />
+            <input type="text" id="share-url" onChange={setShareUrl} value={shareUrl} />
             <Button
-              customCSS={'margin-left: var(--sm);'}
+              customCSS={"margin-left: var(--sm);"}
               handleClick={copyUrl}
-              text={copied ? 'Copied!' : 'Copy'}
+              text={copied ? "Copied!" : "Copy"}
               disabled={copied}
             />
           </div>
@@ -132,29 +127,18 @@ export default function Generator() {
           <Button
             handleClick={share}
             disabled={count < 2 || isSharing}
-            text={isSharing ? '∆·∇·∆' : 'Share'}
+            text={isSharing ? "∆·∇·∆" : "Share"}
           />
         )}
       </Tweet>
       <Poem poem={poem} />
       {!isShared && (
         <div className="controls">
-          <Button
-            handleClick={replace}
-            alt="shuffle"
-            emoji="🔀 "
-            text="Swap Line"
-          />
+          <Button handleClick={replace} alt="shuffle" emoji="🔀 " text="Swap Line" />
           <div className="line-controls">
+            <Button handleClick={remove} disabled={count <= 1} alt="minus" emoji="➖" text="Line" />
             <Button
-              handleClick={remove}
-              disabled={count <= 1}
-              alt="minus"
-              emoji="➖"
-              text="Line"
-            />
-            <Button
-              customCSS={'margin-left: 1rem;'}
+              customCSS={"margin-left: 1rem;"}
               handleClick={add}
               disabled={count >= 5}
               alt="plus"
@@ -195,7 +179,7 @@ export default function Generator() {
           margin-bottom: var(--sm);
         }
 
-        input[type='text'] {
+        input[type="text"] {
           width: 100%;
           height: 4rem;
           padding: 0 var(--sm);

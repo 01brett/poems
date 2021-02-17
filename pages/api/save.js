@@ -1,5 +1,5 @@
-import { nanoid } from 'nanoid'
-import db from './db'
+import { nanoid } from "nanoid"
+import { db } from "util/firebase-admin"
 
 export default async function save(req, res) {
   var { poem, clicks } = req.body
@@ -8,21 +8,21 @@ export default async function save(req, res) {
     !clicks ||
     !poem ||
     !Array.isArray(poem) ||
-    typeof clicks !== 'number' ||
+    typeof clicks !== "number" ||
     poem.length < 2 ||
     poem.length > 5
   ) {
-    return res.status(400).json({ error: 'Missing data' })
+    return res.status(400).json({ error: "Missing data" })
   }
   // data validation poem
   for (var el of poem) {
     if (
       !el.tweet_id ||
       !el.text ||
-      typeof el.tweet_id !== 'number' ||
-      typeof el.text !== 'string'
+      typeof el.tweet_id !== "number" ||
+      typeof el.text !== "string"
     ) {
-      return res.status(400).json({ error: 'Incorrect data' })
+      return res.status(400).json({ error: "Incorrect data" })
     }
   }
   // let's save it
@@ -39,7 +39,7 @@ export default async function save(req, res) {
     if (id) {
       res.json({ uid })
     } else {
-      res.status(500).json({ error: 'Server error' })
+      res.status(500).json({ error: "Server error" })
     }
   } catch (err) {
     console.log(err)

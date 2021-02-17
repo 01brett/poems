@@ -1,18 +1,18 @@
-import db from './api/db'
+import { getPoemData } from "util/db"
 
-import Topper from '../components/Topper'
-import Shared from '../components/Shared'
+import Topper from "../components/Topper"
+import Shared from "../components/Shared"
 
 export default function Share({ data }) {
-  var title = data ? data.poem[0].text : 'Poem not found'
+  var title = data ? data.poem[0].text : "Poem not found"
   var fullPoem = data
     ? data.poem.reduce((acc, val) => {
         if (!acc) {
           return acc + val.text
         }
-        return acc + ' ' + val.text
-      }, '')
-    : 'Poem not found'
+        return acc + " " + val.text
+      }, "")
+    : "Poem not found"
 
   return (
     <Topper title={title} fullPoem={fullPoem}>
@@ -21,9 +21,10 @@ export default function Share({ data }) {
   )
 }
 
-export async function getServerSideProps(ctx) {
-  var { uid } = ctx.params
-  var [data] = await db.match({ uid })
+export async function getServerSideProps({ params }) {
+  const { uid } = params
+  const data = await getPoemData(uid)
+
   if (data) {
     return {
       props: { data }
