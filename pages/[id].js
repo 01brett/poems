@@ -1,4 +1,4 @@
-import { getPoemData } from "utils/db"
+import { getPoemData, getAllPoems } from "utils/db"
 
 import Topper from "../components/Topper"
 import Shared from "../components/Shared"
@@ -35,4 +35,14 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export async function getStaticPaths() {}
+export async function getStaticPaths() {
+  const ids = await getAllPoems()
+  const paths = ids.map((id) => ({
+    params: { id }
+  }))
+
+  return {
+    paths,
+    fallback: "blocking"
+  }
+}

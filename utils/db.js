@@ -10,3 +10,16 @@ export const getPoemData = async (id) => {
 
   return doc.data()
 }
+
+export const getAllPoems = async () => {
+  return db
+    .collection("poems")
+    .get()
+    .then((query) => {
+      const ids = []
+      query.forEach((doc) => {
+        ids.push(doc.id)
+      })
+      return ids
+    })
+}
