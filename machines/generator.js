@@ -11,8 +11,7 @@ import {
   saveUrl,
   saveError,
   resetPoem,
-  copyUrl,
-  hold
+  copyUrl
 } from "machines/functions"
 
 export const useMachine = createUseMachine(React.useEffect, React.useState)
