@@ -1,4 +1,4 @@
-import { getPoemData } from "util/db"
+import { getPoemData } from "utils/db"
 
 import Topper from "../components/Topper"
 import Shared from "../components/Shared"
@@ -21,7 +21,7 @@ export default function Share({ data }) {
   )
 }
 
-export async function getServerSideProps({ params }) {
+export async function getStaticProps({ params }) {
   const { id } = params
   const data = await getPoemData(id)
 
@@ -34,3 +34,5 @@ export async function getServerSideProps({ params }) {
     props: {}
   }
 }
+
+export async function getStaticPaths() {}

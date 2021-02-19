@@ -1,4 +1,4 @@
-import { db } from "util/firebase-admin"
+import { db } from "utils/firebase-admin"
 
 export const getPoemData = async (id) => {
   const docRef = db.collection("poems").doc(id)

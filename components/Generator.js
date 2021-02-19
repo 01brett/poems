@@ -1,153 +1,89 @@
 import * as React from "react"
-import clip from "../util/clip"
-import data from "../util/tweets"
+// import { useMachine } from "@xstate/react"
 
-import Tweet from "./Tweet"
-import Poem from "./Poem"
-import Button from "./Button"
-import Message from "./Message"
+import { poemMachine } from "machines/poem"
+import { useMachine, generatorMachine } from "machines/generator"
+
+import Tweet from "components/Tweet"
+import Poem from "components/Poem"
+import Button from "components/Button"
+import Message from "components/Message"
 
 export default function Generator() {
-  var [error, setError] = React.useState({
-    status: false,
-    text: ""
-  })
-  var [poem, setPoem] = React.useState([data[295]])
-  var [count, setCount] = React.useState(1)
-  var [clicks, setClicks] = React.useState(0)
-
-  var [copied, setCopied] = React.useState(false)
-  var [isSharing, setIsSharing] = React.useState(false)
-  var [isShared, setIsShared] = React.useState(false)
-  var [shareUrl, setShareUrl] = React.useState("")
-
-  function add() {
-    const rand = data[Math.floor(Math.random() * data.length)]
-    if (!poem.includes(rand)) {
-      setPoem([...poem, rand])
-      setCount((prevCount) => prevCount + 1)
-    } else {
-      const altRand = data[Math.floor(Math.random() * data.length)]
-      setPoem([...poem, altRand])
-      setCount((prevCount) => prevCount + 1)
-    }
-    setClicks((prev) => prev + 1)
-  }
-
-  function remove() {
-    const poemArr = [...poem]
-    poemArr.pop()
-    setPoem(poemArr)
-    setCount((prevCount) => prevCount - 1)
-    setClicks((prev) => prev + 1)
-  }
-
-  function replace() {
-    const randTweet = data[Math.floor(Math.random() * data.length)]
-    const poemArr = [...poem]
-    poemArr[poemArr.length - 1] = randTweet
-    setPoem(poemArr)
-    setClicks((prev) => prev + 1)
-  }
-
-  async function copyUrl() {
-    try {
-      const input = document.querySelector("#share-url")
-      await clip(input.value)
-      setCopied(true)
-      return setTimeout(() => {
-        setCopied(false)
-      }, 3000)
-    } catch (err) {
-      console.log("Copying url error – ", error)
-      setError({ status: false, text: err })
-      setCopied(false)
-    }
-  }
-
-  function reset() {
-    setPoem([data[Math.floor(Math.random() * data.length)]])
-    setCount(1)
-    setClicks(0)
-    setError({ status: false, text: "" })
-    setIsShared(false)
-    setShareUrl("")
-  }
-
-  async function share() {
-    const userData = {
-      poem,
-      clicks
-    }
-    setIsSharing(true)
-    try {
-      const res = await fetch("/api/save", {
-        headers: { "Content-Type": "application/json" },
-        method: "POST",
-        body: JSON.stringify(userData)
-      })
-      var { id } = await res.json()
-      setError({ status: false, text: "" })
-      setIsSharing(false)
-      setIsShared(true)
-      setShareUrl(`${window.origin}/${id}`)
-    } catch (err) {
-      console.log("Saving poem error — ", err)
-      setError({ status: true, text: err })
-    }
-  }
+  const [state, send] = useMachine(generatorMachine)
+  const { poem, error, shareUrl } = state.context
+  console.log("context:", state.context)
 
   return (
     <>
-      {error.status && <Message text={error.text} error />}
-      {isShared && (
+      <h1 style={{ marginBottom: "1rem" }}>{JSON.stringify(state.name, null, 2)}</h1>
+      {state.error ? <Message text={error} error /> : null}
+      {state.shared ? (
         <section>
           <Button
             customCSS={"margin-bottom: var(--md);"}
-            handleClick={reset}
+            send={send}
+            action="RESET_POEM"
             alt="bomb"
             emoji="💣 "
             text="Make Another"
           />
           <label htmlFor="share-url">Your Poem's URL</label>
           <div className="saved-box">
-            <input type="text" id="share-url" onChange={setShareUrl} value={shareUrl} />
+            <input readOnly type="text" id="share-url" value={shareUrl} />
             <Button
               customCSS={"margin-left: var(--sm);"}
-              handleClick={copyUrl}
-              text={copied ? "Copied!" : "Copy"}
-              disabled={copied}
+              send={send}
+              action="COPY_URL"
+              text={state.copied ? "Copied!" : "Copy"}
+              disabled={state.copied}
             />
           </div>
         </section>
-      )}
+      ) : null}
 
       <Tweet>
-        {!isShared && (
+        {!state.shared ? (
           <Button
-            handleClick={share}
-            disabled={count < 2 || isSharing}
-            text={isSharing ? "∆·∇·∆" : "Share"}
+            send={send}
+            action="SHARE_POEM"
+            disabled={poem < 2 || state.pending}
+            text={state.pending ? "∆·∇·∆" : "Share"}
           />
-        )}
+        ) : null}
       </Tweet>
       <Poem poem={poem} />
-      {!isShared && (
+      {!state.shared ? (
         <div className="controls">
-          <Button handleClick={replace} alt="shuffle" emoji="🔀 " text="Swap Line" />
+          <Button
+            send={send}
+            action="REPLACE_LINE"
+            alt="shuffle"
+            emoji="🔀 "
+            text="Swap Line"
+            disabled={state.pending}
+          />
           <div className="line-controls">
-            <Button handleClick={remove} disabled={count <= 1} alt="minus" emoji="➖" text="Line" />
+            <Button
+              send={send}
+              action="REMOVE_LINE"
+              disabled={poem.length <= 1 || state.pending}
+              alt="minus"
+              emoji="➖"
+              text="Line"
+            />
             <Button
               customCSS={"margin-left: 1rem;"}
-              handleClick={add}
-              disabled={count >= 5}
+              send={send}
+              action="ADD_LINE"
+              disabled={poem.length >= 5 || state.pending}
               alt="plus"
               emoji="➕"
               text="Line"
             />
           </div>
         </div>
-      )}
+      ) : null}
       <style jsx>{`
         .controls {
           position: sticky;

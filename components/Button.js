@@ -1,6 +1,6 @@
 export default function Button(props) {
   return (
-    <button onClick={props.handleClick} disabled={props.disabled}>
+    <button onClick={() => props.send(props.action)} disabled={props.disabled}>
       {props.emoji && (
         <span role="img" aria-label={props.alt}>
           {props.emoji}
