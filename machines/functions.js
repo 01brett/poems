@@ -73,13 +73,14 @@ export const saveError = (ctx, e) => {
   }
 }
 
-export const hold = () => {
-  setTimeout(() => {
-    console.log("Holding for 3 seconds")
-  }, 3000)
-}
-
-export const copyUrl = async () => {
-  const input = document.getElementById("share-url")
-  return await clip(input.value)
+export const copyUrl = async (ctx, e) => {
+  try {
+    const input = document.getElementById("share-url")
+    return await clip(input.value)
+  } catch (err) {
+    return {
+      ...ctx,
+      error: e.error
+    }
+  }
 }
