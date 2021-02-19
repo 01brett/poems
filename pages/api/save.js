@@ -1,4 +1,4 @@
-import { db } from "util/firebase-admin"
+import { db } from "utils/firebase-admin"
 
 export default async function save(req, res) {
   var { poem, clicks } = req.body
