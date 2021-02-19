@@ -1,55 +1,40 @@
 import * as React from "react"
+import { createMachine, state, transition, invoke, action, reduce } from "robot3"
 import { createUseMachine } from "robot-hooks"
-import { createMachine, state, transition, invoke, reduce } from "robot3"
 
 import data from "utils/tweets"
-import clip from "utils/clip"
+import {
+  addLine,
+  removeLine,
+  replaceLine,
+  sharePoem,
+  saveUrl,
+  saveError,
+  resetPoem,
+  copyUrl,
+  hold
+} from "machines/functions"
 
 export const useMachine = createUseMachine(React.useEffect, React.useState)
-
-const sharePoem = async (ctx) => {
-  const { poem, clicks } = ctx
-
-  return fetch("/api/save", {
-    headers: { "Content-Type": "application/json" },
-    method: "POST",
-    body: JSON.stringify({
-      poem,
-      clicks
-    })
-  }).then((res) => res.json())
-}
 
 export const generatorMachine = createMachine(
   {
     initial: state(
       // transition(actionName, nextState)
+      transition("add", "initial", reduce(addLine)),
+      transition("remove", "initial", reduce(removeLine)),
+      transition("replace", "initial", reduce(replaceLine)),
       transition("share", "pending")
     ),
     pending: invoke(
       sharePoem,
-      transition(
-        "done",
-        "finished",
-        reduce((context, event) => {
-          return {
-            ...context,
-            shareUrl: `${window.origin}/${event.data.id}`
-          }
-        })
-      ),
-      transition(
-        "error",
-        "initial",
-        reduce((context, event) => {
-          return {
-            ...context,
-            error: event.error
-          }
-        })
-      )
+      transition("done", "shared", reduce(saveUrl)),
+      transition("error", "initial", reduce(saveError))
     ),
-    finished: state()
+    shared: state(
+      transition("copy", "shared", action(copyUrl)),
+      transition("reset", "initial", reduce(resetPoem))
+    )
   },
   () => ({
     poem: [data[295]],

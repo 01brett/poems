@@ -1,7 +1,4 @@
 import * as React from "react"
-// import { useMachine } from "@xstate/react"
-
-import { poemMachine } from "machines/poem"
 import { useMachine, generatorMachine } from "machines/generator"
 
 import Tweet from "components/Tweet"
@@ -10,20 +7,19 @@ import Button from "components/Button"
 import Message from "components/Message"
 
 export default function Generator() {
-  const [state, send] = useMachine(generatorMachine)
-  const { poem, error, shareUrl } = state.context
-  console.log("context:", state.context)
+  const [current, send] = useMachine(generatorMachine)
+  const { poem, error, shareUrl } = current.context
+  console.log("context:", current.context)
 
   return (
     <>
-      <h1 style={{ marginBottom: "1rem" }}>{JSON.stringify(state.name, null, 2)}</h1>
-      {state.error ? <Message text={error} error /> : null}
-      {state.shared ? (
+      {error ? <Message text={JSON.stringify(error, null, 2)} error /> : null}
+      {current.name === "shared" ? (
         <section>
           <Button
             customCSS={"margin-bottom: var(--md);"}
             send={send}
-            action="RESET_POEM"
+            action="reset"
             alt="bomb"
             emoji="💣 "
             text="Make Another"
@@ -31,43 +27,37 @@ export default function Generator() {
           <label htmlFor="share-url">Your Poem's URL</label>
           <div className="saved-box">
             <input readOnly type="text" id="share-url" value={shareUrl} />
-            <Button
-              customCSS={"margin-left: var(--sm);"}
-              send={send}
-              action="COPY_URL"
-              text={state.copied ? "Copied!" : "Copy"}
-              disabled={state.copied}
-            />
+            <Button customCSS={"margin-left: var(--sm);"} send={send} action="copy" text="Copy" />
           </div>
         </section>
       ) : null}
 
       <Tweet>
-        {!state.shared ? (
+        {current.name === "initial" || current.name === "pending" ? (
           <Button
             send={send}
-            action="SHARE_POEM"
-            disabled={poem < 2 || state.pending}
-            text={state.pending ? "∆·∇·∆" : "Share"}
+            action="share"
+            disabled={poem?.length < 2 || current.name === "pending"}
+            text={current.name === "pending" ? "∆·∇·∆" : "Share"}
           />
         ) : null}
       </Tweet>
       <Poem poem={poem} />
-      {!state.shared ? (
+      {current.name === "initial" || current.name === "pending" ? (
         <div className="controls">
           <Button
             send={send}
-            action="REPLACE_LINE"
+            action="replace"
             alt="shuffle"
             emoji="🔀 "
             text="Swap Line"
-            disabled={state.pending}
+            disabled={current.name === "pending"}
           />
           <div className="line-controls">
             <Button
               send={send}
-              action="REMOVE_LINE"
-              disabled={poem.length <= 1 || state.pending}
+              action="remove"
+              disabled={poem?.length <= 1 || current.name === "pending"}
               alt="minus"
               emoji="➖"
               text="Line"
@@ -75,8 +65,8 @@ export default function Generator() {
             <Button
               customCSS={"margin-left: 1rem;"}
               send={send}
-              action="ADD_LINE"
-              disabled={poem.length >= 5 || state.pending}
+              action="add"
+              disabled={poem?.length >= 5 || current.name === "pending"}
               alt="plus"
               emoji="➕"
               text="Line"
