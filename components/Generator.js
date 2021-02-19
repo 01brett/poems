@@ -9,7 +9,6 @@ import Message from "components/Message"
 export default function Generator() {
   const [current, send] = useMachine(generatorMachine)
   const { poem, error, shareUrl } = current.context
-  console.log("context:", current.context)
 
   return (
     <>
